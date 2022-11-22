@@ -1,0 +1,57 @@
+/*Custom properties*/
+:root {
+    --clr-primary-name1-300: #a3a0a0;
+    --clr-primary-name2-500: #6f9489;
+    
+    --clr-neutral-name1-300: #e4e9e8;
+    --clr-neutral-name2-500: #7fc6b1;
+
+    --ff-primary: /*add font*/;
+    --ff-accent: /*add font*/;
+}
+
+/* sets border box to box sizing hole document*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.3125rem;
+    line-height: 1.6;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--ff-accent);
+    font-weight: 700;
+    line-height: 1;
+}
+
+section {
+    padding: 3rem 0;
+}
+
+.bg-main { 
+    background-color: var(--clr-primary-name2-500); 
+}
+
+.bg-light { 
+    background-color: var(--clr-primary-name1-300); 
+}
+
+/*we add more later*/
+
+
