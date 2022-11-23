@@ -122,16 +122,15 @@ nav {
     left: 0;
     height: 100px;
     width: 100%;
-    background-color: var(--nav-color);
+    background-color: var(--clr-primary-name2-500);
     z-index: 100;
 }
 
 nav .nav-bar {
     position: relative;
     height: 100%;
-    max-width: 1300px;
     width: 100%;
-    background-color: var(--nav-color);
+    background-color: var(--clr-neutral-name1-300);
     margin: 0 auto;
     padding: 0 20px;
     display: flex;
@@ -140,7 +139,7 @@ nav .nav-bar {
 }
 
 nav .nav-bar .sidebarOpen {
-    color: var(--text-color);
+    color: var(--clr-primary-name2-500);
     font-size: 25px;
     letter-spacing: 0.5px;
     padding: 5px;
@@ -180,7 +179,7 @@ nav .nav-bar .logo a img  {
     font-style: normal;
     font-size: 20px;
     letter-spacing: 0.5px;
-    color: var(--text-color);
+    color: var(--clr-primary-name2-500);
     text-decoration: none;
     padding: 0 30px;
 }
@@ -189,7 +188,7 @@ nav .nav-bar .logo a img  {
 .nav-links li a::before { 
     content:'';
     position: absolute;
-    background-color: var(--text-color);
+    background-color: var(--clr-primary-name2-500);
     height: 3px;
     width: 0%;
     left: -10px;
@@ -228,7 +227,7 @@ nav .nav-bar .logo a img  {
 .dark-light i{
     position: relative;
     padding-inline: 0 30px;
-    color: var(--text-color);
+    color: violet;
     font-size: 30px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -243,23 +242,23 @@ nav .nav-bar .logo a img  {
     .menu{
         position: fixed;
         height: 100%;
-        width: 320px;
+        width: 40%;
         left: -100%;
         top: 0;
         padding: 0;
-        background-color: var(--side-nav);
+        background-color: var(--clr-neutral-name1-300);
         z-index: 100;
         transition: all 0.4s ease;
     }
 
     .logo-toggle{
         width: 100%;
-        background-color: var(--nav-color);
+        background-color: var(--clr-neutral-name1-300);
 
     }
    
     .nav-links li a::before{
-        background-color: var(--text-color-dark);
+        background-color: var(--clr-primary-name2-500);
         opacity: 1;
     }
 
@@ -268,14 +267,14 @@ nav .nav-bar .logo a img  {
     }
 
     .nav-links li a {
-        color:var(--text-color-dark);
+        color:var(--clr-primary-name2-500);
     }    
 
     .ikonNavSide i {
         font-size: 36px;
         padding-inline: 12px;
         padding-top: 40%;
-        color: var(--text-color-dark);
+        color: va;
           
     }
 
@@ -298,9 +297,10 @@ nav .nav-bar .logo a img  {
     }
 
     .logo-toggle .sidebarClose{
-        color: var(--text-color);
+        color: var(--clr-primary-name2-500);
         font-size: 24px;
         cursor: pointer;
+        margin-top: 1.5em;
     }
     
     .nav-bar .nav-links {
