@@ -38,10 +38,68 @@ h3 {
     font-family: var(--ff-accent);
     font-weight: 700;
     line-height: 1;
+    margin-bottom: 1em;
 }
 
+/* margin-bottom: 1em = equal to the actual font size */
+h2,
+h3,
+p {
+    margin-bottom: 1em;
+}
+
+img {
+    display: block;
+    max-width: 100%; /*responsive images */
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+header,
 section {
-    padding: 3rem 0;
+    padding: 4rem 0;
+}
+
+@media (min-width: 40em) {
+    header,
+    section {
+    padding: 8rem 0;
+}
+}
+
+.container {
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
+}
+
+
+
+.split {
+    display: flex;
+    flex-direction: column;
+}
+
+/*em is more consistent by zooming in and out*/
+
+@media (min-width: 40em) {
+    .split {
+        flex-direction: row;
+    }
+
+/*all direct children of the .split will have equal columns */
+    
+    .split > * {
+        flex-basis: 100%; /* setting ideal width */ 
+    }
+
+/*Json sibling selector = any element that has a sibling before it adds margin */
+
+    .split > * + * {
+        margin-left: 2em;
+    }
 }
 
 .bg-main { 
