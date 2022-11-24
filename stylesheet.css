@@ -147,9 +147,8 @@ nav .nav-bar .sidebarOpen {
     display: none;
 }
 
-nav .nav-bar .logo a img  {
+nav .nav-bar .logo a img {
     width: 100%;
-    max-width: 60%;
     height: auto;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -177,11 +176,11 @@ nav .nav-bar .logo a img  {
     font-family: proxima-nova,sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 20px;
-    letter-spacing: 0.5px;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
     color: var(--clr-primary-name2-500);
     text-decoration: none;
-    padding: 0 30px;
+    padding: 0 25px;
 }
 
 
@@ -233,6 +232,10 @@ nav .nav-bar .logo a img  {
     transition: all 0.3s ease;
 }
 
+.menu .logo {
+    margin-top: 0;
+}
+
 
 
 @media (max-width: 900px) {
@@ -274,7 +277,7 @@ nav .nav-bar .logo a img  {
         font-size: 36px;
         padding-inline: 12px;
         padding-top: 40%;
-        color: va;
+        color: var(--clr-neutral-name2-500);
           
     }
 
@@ -283,7 +286,7 @@ nav .nav-bar .logo a img  {
 
     }
 
-    nav.active .nav-bar .navLogo a {
+    nav.active .nav-bar .navlogo a {
         opacity: 0;
         transition: all 0.3s ease;
     }
@@ -300,8 +303,9 @@ nav .nav-bar .logo a img  {
         color: var(--clr-primary-name2-500);
         font-size: 24px;
         cursor: pointer;
-        margin-top: 1.5em;
+        margin-top: 0;
         margin-right: 1em;
+        margin-left: 0.5em;
     }
     
     .nav-bar .nav-links {
