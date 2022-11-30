@@ -7,15 +7,15 @@
     --clr-neutral-name1-300: #e4e9e8;
     --clr-neutral-name2-500: #7fc6b1;
 
-    --ff-h1:  font-family: proxima-nova,sans-serif; 
+    --ff-h1:  'proxima-nova',sans-serif; 
     --font-size-h1: font-size: 1.5636rem;         
     --font-weight-h1: font-weight: 700;
 
-    --ff-h2: proxima-nova, sans-serif; 
+    --ff-h2: 'proxima-nova', sans-serif; 
     --font-size-h2: 1.375rem;         
     --font-weight-h2: 600;               
 
-    --ff-p-dialog:  font-family: calibri,sans-serif; 
+    --ff-p-dialog:  'calibri',sans-serif; 
     --font-size-p:  font-size: 1.125rem;
     --font-weight-p: font-weight: 400;
                     
@@ -145,7 +145,7 @@ section {
 
 /* BUTTONS */
 
-button.btnhome {
+.btnhome {
   display: inline-flex;
   height: 72px;
   padding: 0;
@@ -154,13 +154,30 @@ button.btnhome {
   outline: none;
   border-radius: 10px; 
   overflow: hidden;
-  font-family: proxima-nova, sans-serif;
+  font-family: 'proxima nova', sans-serif;
   font-size: 1.375rem;
   font-weight: 600;
   cursor: pointer;
 }
 
-.btnhome::hover {
+.button.btnhome::hover {
   background-color: grey;
 
+}
+
+.button.btnhome::active {
+  background-color: rgb(88, 87, 87);
+
+}
+
+.button__text,
+.button__icon {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  height: 100%;
+}
+
+.button__icon {
+  font-size: 1.5em;
 }
