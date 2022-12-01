@@ -157,18 +157,18 @@ section {
   outline: none;
   border-radius: 10px; 
   overflow: hidden;
-  font-family: 'proxima nova', sans-serif;
+  font-family: var(--ff-h2);
   font-size: 1.375rem;
   font-weight: 600;
   cursor: pointer;
 }
 
-.button.btnhome::hover {
+.btnhome:hover {
   background-color: grey;
 
 }
 
-.button.btnhome::active {
+.btnhome:active {
   background-color: rgb(88, 87, 87);
 
 }
