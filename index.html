@@ -1,88 +1,137 @@
 <!DOCTYPE html>
-<html lang="da">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link rel="stylesheet" href="https://use.typekit.net/ufp5zzx.css">
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-      
     <script src="script.js" defer></script>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://use.typekit.net/ulx5pgg.css">   
     <title>Home</title>
     
 </head>
 <body class="bg-main">
-<header class="bg-light text-center" >
-    <p>Lorem ipsum dolor.</p>
-    <h1>Responsive Layout</h1>
-</header>
 
-<section>
-    <div class="container">
-        <h2 class="text-left">Shit in my pants!</h2>
-        <div class="split">
-            <div>
-                <button type="button" class="btnhome">
-                    <a>
-                    <span class="button__text">Drivhus 1</span>
-                    <span class="button__icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
-                        <g id="gite_black_24dp" transform="translate(0.86)">
-                          <rect id="Rectangle_1167" data-name="Rectangle 1167" width="2" height="2" transform="translate(-0.86)" fill="none"/>
-                          <path id="Path_173" data-name="Path 173" d="M37.375,8.422h-19.9V4H13.055V8.422H10.844L2,17.266v19.9H46.219v-19.9ZM6.422,21.688H28.531V32.742H6.422ZM41.8,32.742H32.953V19.1l4.422-4.422h0L41.8,19.1Z" transform="translate(2.499 4.844)" fill="#707070"/></g>
-                        </svg>
-                    </span> 
-                    </a>
-                     
-                </button>
-            </div>
-            <div>
-                <button type="button" class="btnhome">
-                    <span class="button__text">Drivhus 2</span>
-                    <span class="button__icon material-symbols-outlined">gite</span>
-                </button>
-            </div>
-        </div>
-    </div>
-</section>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Greenhouse</a>
 
-<section>
-    <div class="container">
-        <div class="split">
-            <div>
-                <button type="button" class="btnhome">
-                    <span class="button__text">Drivhus 3</span>
-                    <span class="button__icon"><svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
-                        <g id="gite_black_24dp" transform="translate(0.86)">
-                          <rect id="Rectangle_1167" data-name="Rectangle 1167" width="2" height="2" transform="translate(-0.86)" fill="none"/>
-                          <path id="Path_173" data-name="Path 173" d="M37.375,8.422h-19.9V4H13.055V8.422H10.844L2,17.266v19.9H46.219v-19.9ZM6.422,21.688H28.531V32.742H6.422ZM41.8,32.742H32.953V19.1l4.422-4.422h0L41.8,19.1Z" transform="translate(2.499 4.844)" fill="#707070"/>
-                        </g>
-                      </svg>
-                    </span>  
-                </button>
-            </div>
-            <div>
-                <button type="button" class="btnhome">
-                    <span class="button__text">Drivhus 4</span>
-                    <span class="button__icon"><svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
-                        <g id="gite_black_24dp" transform="translate(0.86)">
-                          <rect id="Rectangle_1167" data-name="Rectangle 1167" width="2" height="2" transform="translate(-0.86)" fill="none"/>
-                          <path id="Path_173" data-name="Path 173" d="M37.375,8.422h-19.9V4H13.055V8.422H10.844L2,17.266v19.9H46.219v-19.9ZM6.422,21.688H28.531V32.742H6.422ZM41.8,32.742H32.953V19.1l4.422-4.422h0L41.8,19.1Z" transform="translate(2.499 4.844)" fill="#707070"/>
-                        </g>
-                      </svg>
-                    </span>  
-                </button>
-            </div>
-        </div>
-    </div>
-</section>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home-alt nav__icon'></i>
+                            <span class="nav__name">Home</span>
+                        </a>
+                    </li>
+                    
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user nav__icon'></i>
+                            <span class="nav__name">About</span>
+                        </a>
+                    </li>
 
-</body>
-</html>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-book-alt nav__icon'></i>
+                            <span class="nav__name">Skills</span>
+                        </a>
+                    </li>
 
-    
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class='bx bx-briefcase-alt nav__icon'></i>
+                            <span class="nav__name">Portfolio</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contactme" class="nav__link">
+                            <i class='bx bx-message-square-detail nav__icon'></i>
+                            <span class="nav__name">Contactme</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <img src="images/hydrovertic_logo_green2_50px.svg" alt="" class="nav__img">
+        </nav>
+    </header>
      
 
-   
+    <section>
+        <div class="container">
+            <div class="bg-light text-center" >
+                <h1 class="title">Responsive Layout</h1>
+                
+            </div>
+            <h2 class="text-center">Shit in my pants!</h2>
+            <div class="split">
+                <div>
+                    <button type="button" class="btnhome">
+                        <a>
+                            <span class="button__text">Drivhus 1</span>
+                            <span class="button__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54"><g id="gite_black_24dp" transform="translate(0.86)"><rect id="Rectangle_1167" data-name="Rectangle 1167" width="2" height="2" transform="translate(-0.86)" fill="none"/><path id="Path_173" data-name="Path 173" d="M37.375,8.422h-19.9V4H13.055V8.422H10.844L2,17.266v19.9H46.219v-19.9ZM6.422,21.688H28.531V32.742H6.422ZM41.8,32.742H32.953V19.1l4.422-4.422h0L41.8,19.1Z" transform="translate(2.499 4.844)" fill="#707070"/></g></svg>
+                            </span> 
+                        </a>   
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="split">
+                <div>
+                    <button type="button" class="btnhome">
+                        <a>
+                            <span class="button__text">Drivhus 2</span>
+                            <span class="button__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54"><g id="gite_black_24dp" transform="translate(0.86)"><rect id="Rectangle_1167" data-name="Rectangle 1167" width="2" height="2" transform="translate(-0.86)" fill="none"/><path id="Path_173" data-name="Path 173" d="M37.375,8.422h-19.9V4H13.055V8.422H10.844L2,17.266v19.9H46.219v-19.9ZM6.422,21.688H28.531V32.742H6.422ZM41.8,32.742H32.953V19.1l4.422-4.422h0L41.8,19.1Z" transform="translate(2.499 4.844)" fill="#707070"/></g></svg>
+                            </span> 
+                        </a>   
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="split">
+                <div>
+                    <button type="button" class="btnhome">
+                        <a>
+                            <span class="button__text">Drivhus 3</span>
+                            <span class="button__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54"><g id="gite_black_24dp" transform="translate(0.86)"><rect id="Rectangle_1167" data-name="Rectangle 1167" width="2" height="2" transform="translate(-0.86)" fill="none"/><path id="Path_173" data-name="Path 173" d="M37.375,8.422h-19.9V4H13.055V8.422H10.844L2,17.266v19.9H46.219v-19.9ZM6.422,21.688H28.531V32.742H6.422ZM41.8,32.742H32.953V19.1l4.422-4.422h0L41.8,19.1Z" transform="translate(2.499 4.844)" fill="#707070"/></g></svg>
+                            </span> 
+                        </a>   
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="split">
+                <div>
+                    <button type="button" class="btnhome">
+                        <a>
+                            <span class="button__text">Drivhus add</span>
+                            <span class="button__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54"><g id="gite_black_24dp" transform="translate(0.86)"><rect id="Rectangle_1167" data-name="Rectangle 1167" width="2" height="2" transform="translate(-0.86)" fill="none"/><path id="Path_173" data-name="Path 173" d="M37.375,8.422h-19.9V4H13.055V8.422H10.844L2,17.266v19.9H46.219v-19.9ZM6.422,21.688H28.531V32.742H6.422ZM41.8,32.742H32.953V19.1l4.422-4.422h0L41.8,19.1Z" transform="translate(2.499 4.844)" fill="#707070"/></g></svg>
+                            </span> 
+                        </a>   
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
