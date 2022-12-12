@@ -1,8 +1,8 @@
 /*Custom properties*/
 :root {
   --header-height: 3rem;
-  --clr-headerbg:#E0F2CB;
-  --clr-bg:#F1F1F1;
+  --clr-headerbg: #e0f2cb;
+  --clr-bg: #f1f1f1;
 
   --hue: 174;
   --sat: 63%;
@@ -11,40 +11,38 @@
   --title-color: hsl(var(--hue), 12%, 15%);
   --text-color: hsl(var(--hue), 8%, 35%);
   --body-color: hsl(var(--hue), 100%, 99%);
-  --container-color: #FFF;
+  --container-color: #fff;
 
   --clr-primary-name1-300: #a3a0a0;
   --clr-primary-name2-500: #6f9489;
-  
+
   --clr-neutral-name1-300: #e4e9e8;
   --clr-neutral-name2-500: #7fc6b1;
 
-/*========== Font and typography ==========*/  
+  /*========== Font and typography ==========*/
 
-  --ff-h1: ; 
+  --ff-h1: ;
 
-  --ff-h2: ; 
+  --ff-h2: ;
 
-  --ff-h3: ;                
+  --ff-h3: ;
 
-  --ff-p-dialog:  'calibri',sans-serif; 
+  --ff-p-dialog: "calibri", sans-serif;
   --font-size-p: 1.125rem;
   --font-weight-p: 400;
 
-
-  --body-font: 'calibri', sans-serif;
+  --body-font: "calibri", sans-serif;
   --h1-font-size: 1.5rem;
   --h1-font-weight: 700;
 
   --h2-font-size: 1.375rem;
-  --h2-font-weight: 600;   
-  
-  
-  --p-font-weight: 400;
-  --normal-font-size: .938rem;
-  --tiny-font-size: .625rem;
+  --h2-font-weight: 600;
 
-/*========== z index ==========*/
+  --p-font-weight: 400;
+  --normal-font-size: 0.938rem;
+  --tiny-font-size: 0.625rem;
+
+  /*========== z index ==========*/
 
   --z-tooltip: 10;
   --z-fixed: 100;
@@ -71,7 +69,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
-  color: var(--text-color);    
+  color: var(--text-color);
   line-height: 1.6;
 }
 
@@ -98,8 +96,6 @@ p {
   margin-bottom: 1em;
 }
 
-
-
 ul {
   list-style: none;
 }
@@ -114,7 +110,7 @@ img {
   height: auto;
 }
 
-.pageheadline{
+.pageheadline {
   margin-top: 15%;
 }
 
@@ -127,26 +123,23 @@ img {
 }
 
 .bg-head {
-  background-color:var(--clr-headerbg)
+  background-color: var(--clr-headerbg);
 }
 section {
   padding: 1rem 0;
- ;
 }
 
 @media (min-width: 40em) {
   header,
   section {
-  padding: 1.5rem 0;
-}
+    padding: 1.5rem 0;
+  }
 }
 
 .container {
   margin-inline: auto;
   width: min(80%, 70.5rem);
 }
-
-
 
 .split {
   display: flex;
@@ -157,28 +150,28 @@ section {
 
 @media (min-width: 40em) {
   .split {
-      flex-direction: row;
+    flex-direction: row;
   }
 
-/*all direct children of the .split will have equal columns */
-  
+  /*all direct children of the .split will have equal columns */
+
   .split > * {
-      flex-basis: 100%; /* setting ideal width */ 
+    flex-basis: 100%; /* setting ideal width */
   }
 
-/*Json sibling selector = any element that has a sibling before it adds margin */
+  /*Json sibling selector = any element that has a sibling before it adds margin */
 
   .split > * + * {
-      margin-left: 2em;
+    margin-left: 2em;
   }
 }
 
-.bg-main { 
+.bg-main {
   background-color: var(--clr-bg);
 }
 
-.bg-light { 
-  background-color: var(--clr-primary-name1-300); 
+.bg-light {
+  background-color: var(--clr-primary-name1-300);
 }
 
 /*=============== HEADER ===============*/
@@ -189,7 +182,7 @@ section {
   width: 100%;
   background-color: var(--container-color);
   z-index: var(--z-fixed);
-  transition: .4s;
+  transition: 0.4s;
 }
 
 /*=============== NAV ===============*/
@@ -208,7 +201,6 @@ section {
 .nav__logo {
   width: 300px;
   right: -50px;
-  
 }
 
 @media screen and (max-width: 1600px) {
@@ -223,12 +215,12 @@ section {
     padding: 0 1rem;
     display: grid;
     align-content: center;
-    border-radius: 1.25rem 1.25rem 0 0;
-    transition: .4s;
+    border-radius: 0 0 0 0; /* ændrede de to første værdier til 0 0, så navbar blev firkantet i alle hjørner */
+    transition: 0.4s;
   }
 }
 
-.nav__list, 
+.nav__list,
 .nav__link {
   display: flex;
 }
@@ -239,7 +231,6 @@ section {
   row-gap: 4px;
   color: var(--title-color);
   font-weight: 600;
-  
 }
 
 .nav__list {
@@ -259,26 +250,24 @@ section {
 .active-link {
   position: relative;
   color: var(--first-color);
-  transition: .3s;
+  transition: 0.3s;
 }
 
 /* Minimalist design, active link */
-.active-link::before{
-  content: '';
+.active-link::before {
+  content: "";
   position: absolute;
-  bottom: -.5rem;
+  bottom: -0.5rem;
   width: 4px;
   height: 4px;
   background-color: var(--first-color);
   border-radius: 50%;
-} 
+}
 
 /* Change background header */
 .scroll-header {
   box-shadow: 0 1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
 }
-
-
 
 /*=============== MEDIA QUERIES ===============*/
 /* For small devices */
@@ -301,11 +290,11 @@ section {
   body {
     margin: 0;
   }
-  
+
   .nav {
     height: calc(var(--header-height) + 1.5rem); /* 4.5rem */
   }
-  
+
   .nav__icon {
     display: none;
   }
@@ -319,9 +308,9 @@ section {
 
   /* First design, remove if you choose the minimalist design */
   .active-link::before {
-    content: '';
+    content: "";
     position: absolute;
-    bottom: -.75rem;
+    bottom: -0.75rem;
     width: 4px;
     height: 4px;
     background-color: var(--first-color);
@@ -351,10 +340,10 @@ section {
   width: 100%;
   padding: 0;
   margin-bottom: 1rem;
-  background:white ;
+  background: white;
   border: none;
   outline: none;
-  border-radius: 10px; 
+  border-radius: 10px;
   overflow: hidden;
   font-family: var(--ff-h2);
   font-size: 1.375rem;
@@ -364,12 +353,10 @@ section {
 
 .btnhome:hover {
   background-color: grey;
-
 }
 
 .btnhome:active {
   background-color: rgb(88, 87, 87);
-
 }
 
 .button__text,
@@ -384,10 +371,10 @@ section {
   font-size: 1.5em;
 }
 
-/* Plantebibliotek med JS */ 
+/* Plantebibliotek med JS */
 #myInput {
   display: flex;
-  background-image: url('/css/searchicon.png');
+  background-image: url("/css/searchicon.png");
   background-position: 10px 10px;
   background-repeat: no-repeat;
   width: 80%;
@@ -411,7 +398,8 @@ section {
   margin-right: 34px;
 }
 
-#myTable th, #myTable td {
+#myTable th,
+#myTable td {
   text-align: left;
   height: 104px;
   margin-top: 100px;
@@ -422,7 +410,8 @@ section {
   background-color: #ffffff;
 }
 
-#myTable tr.header, #myTable tr:hover {
+#myTable tr.header,
+#myTable tr:hover {
   background-color: #f1f1f1;
 }
 
@@ -432,7 +421,7 @@ section {
 }
 
 .plantebibdiv {
-  background-color: #E0F2CB;
+  background-color: #e0f2cb;
   height: 100px;
 }
 
@@ -450,6 +439,7 @@ section {
 }
 
 .whitespace {
+<<<<<<< HEAD
   height: 25px; 
 }
 
@@ -471,4 +461,7 @@ section {
   margin-left: 34px;
   border-radius: 10px;
   font-size: 20px;
+=======
+  height: 25px;
+>>>>>>> 700556bcd7b010f553dfef84a2cf9b04f3ecb00b
 }
