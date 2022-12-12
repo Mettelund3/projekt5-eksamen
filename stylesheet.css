@@ -428,12 +428,12 @@ section {
 
 .plantebib {
   margin-top: 90px;
+  margin-bottom: 100px;
 }
 
 .plantebibdiv {
   background-color: #E0F2CB;
   height: 100px;
-  margin-bottom: 30px;
 }
 
 .plantebiboverskrift {
@@ -451,4 +451,24 @@ section {
 
 .whitespace {
   height: 25px; 
+}
+
+.tdbilleder {
+  height: 95px;
+  margin-top: -14px;
+  border-radius: 10px;
+}
+
+.tdtext {
+  text-align: center;
+  margin-top: -60px;
+  font-size: 20px;
+}
+
+.tilbageknap {
+  background-color: #ffffff;
+  padding: 12px 20px;
+  margin-left: 34px;
+  border-radius: 10px;
+  font-size: 20px;
 }
