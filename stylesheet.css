@@ -472,3 +472,8 @@ section {
   border-radius: 10px;
   font-size: 20px;
 }
+
+#result {
+  /* Add a transition effect to the result div */
+  transition: opacity 1s;
+}

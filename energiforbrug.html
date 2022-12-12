@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="stylesheet.css" />
-    <script src="script.js" defer></script>
+    <script src="energiforbrug.js" defer></script>
     <link
       href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
       rel="stylesheet"
@@ -14,14 +14,20 @@
     <title>Eneriforbrug</title>
   </head>
 
-  <div class="bg-head">
-    <div class="container">
-      <div class="text-left pageheadline">
-        <h1 class="title">Hjem</h1>
-        <p class="dialogp">Omrade oversigt</p>
-      </div>
+  <section class="plantebib">
+    <div class="plantebibdiv">
+      <h2 class="plantebiboverskrift">Eneriforbrug</h2>
+      <h3 class="plantebib2overskrift">Vælgmålningsparameter</h3>
     </div>
-  </div>
+  </section>
+
+  <body>
+    <select id="menu">
+      <option value="1">Moduler</option>
+      <option value="2">I alt</option>
+    </select>
+    <div id="result"></div>
+  </body>
 
   <body class="bg-main">
     <header class="header" id="header">
