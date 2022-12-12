@@ -370,3 +370,74 @@ section {
 .button__icon {
   font-size: 1.5em;
 }
+
+/* Plantebibliotek med JS */
+#myInput {
+  display: flex;
+  background-image: url("/css/searchicon.png");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 80%;
+  font-size: 16px;
+  padding: 8px 0;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  text-align: center;
+  margin-left: 34px;
+  margin-right: 34px;
+  border-radius: 10px;
+  margin-top: 62px;
+}
+
+#myTable {
+  border: none;
+  width: 80%;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 34px;
+  margin-right: 34px;
+}
+
+#myTable th,
+#myTable td {
+  text-align: left;
+  height: 104px;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+
+#myTable tr {
+  background-color: #ffffff;
+}
+
+#myTable tr.header,
+#myTable tr:hover {
+  background-color: #f1f1f1;
+}
+
+.plantebib {
+  margin-top: 90px;
+}
+
+.plantebibdiv {
+  background-color: #e0f2cb;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+.plantebiboverskrift {
+  padding-top: 20px;
+  text-align: left;
+  padding-left: 34px;
+  font-size: 25px;
+}
+
+.plantebib2overskrift {
+  margin-top: -15px;
+  padding-left: 34px;
+  font-size: 20px;
+}
+
+.whitespace {
+  height: 25px;
+}
