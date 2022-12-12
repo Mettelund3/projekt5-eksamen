@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="stylesheet.css" />
     <script src="energiforbrug.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link
       href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
       rel="stylesheet"
@@ -40,6 +41,15 @@
           <option value="2"><h1>Uge</h1></option>
         </select>
         <div id="result"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="chartMenu">      
+        <div class="chartBox">
+          <canvas id="myChart"></canvas>
+        </div>
+          <button class="btnchart" onclick="chartType('bar')">Bar Chart</button>
+          <button class="btnchart1" onclick="chartType('pie')">Pie Chart</button>
       </div>
     </div>
   </body>
