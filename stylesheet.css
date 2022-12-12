@@ -386,30 +386,40 @@ section {
 
 /* Plantebibliotek med JS */ 
 #myInput {
+  display: flex;
   background-image: url('/css/searchicon.png');
   background-position: 10px 10px;
   background-repeat: no-repeat;
-  width: 100%;
+  width: 80%;
   font-size: 16px;
-  padding: 12px 20px 12px 40px;
+  padding: 8px 0;
   border: 1px solid #ddd;
   margin-bottom: 12px;
+  text-align: center;
+  margin-left: 34px;
+  margin-right: 34px;
+  border-radius: 10px;
+  margin-top: 62px;
 }
 
 #myTable {
-  border-collapse: collapse;
-  width: 100%;
-  border: 1px solid #ddd;
+  border: none;
+  width: 80%;
   font-size: 18px;
+  margin-top: 20px;
+  margin-left: 34px;
+  margin-right: 34px;
 }
 
 #myTable th, #myTable td {
   text-align: left;
-  padding: 12px;
+  height: 104px;
+  margin-top: 100px;
+  border-radius: 10px;
 }
 
 #myTable tr {
-  border-bottom: 1px solid #ddd;
+  background-color: #ffffff;
 }
 
 #myTable tr.header, #myTable tr:hover {
@@ -437,4 +447,8 @@ section {
   margin-top: -15px;
   padding-left: 34px;
   font-size: 20px;
+}
+
+.whitespace {
+  height: 25px; 
 }
