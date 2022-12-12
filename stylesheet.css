@@ -21,11 +21,15 @@
 
 /*========== Font and typography ==========*/  
 
-  --ff-h1-h2-h3: ;                  
+  --ff-h1: ; 
+
+  --ff-h2: ; 
+
+  --ff-h3: ;                
 
   --ff-p-dialog:  'calibri',sans-serif; 
-  --font-size-p:  font-size: 1.125rem;
-  --font-weight-p: font-weight: 400;
+  --font-size-p: 1.125rem;
+  --font-weight-p: 400;
 
 
   --body-font: 'calibri', sans-serif;
@@ -207,7 +211,7 @@ section {
   
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1600px) {
   .nav__menu {
     position: fixed;
     bottom: 0;
