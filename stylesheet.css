@@ -111,7 +111,7 @@ img {
 }
 
 .pageheadline {
-  margin-top: 15%;
+  margin-top: 20%;
 }
 
 .text-center {
@@ -124,6 +124,10 @@ img {
 
 .bg-head {
   background-color: var(--clr-headerbg);
+}
+
+.space-head {
+  margin-top: 2;
 }
 section {
   padding: 1rem 0;
@@ -282,6 +286,10 @@ section {
   .nav__img {
     width: 25px;
   }
+
+  .pageheadline {
+    margin-top: 25%;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -296,6 +304,17 @@ section {
   .nav__img {
     width: 25px;
   }
+
+  .pageheadline {
+    margin-top: 20%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .pageheadline {
+    margin-top: 18%;
+  }
+
 }
 
 /* For medium devices */
@@ -382,6 +401,13 @@ section {
 
 .button__icon {
   font-size: 1.5em;
+}
+
+.button__text1 {
+  display: inline-flex;
+  align-items: center;
+  padding-right: 50%;
+  height: 100%;
 }
 
 /* Plantebibliotek med JS */
