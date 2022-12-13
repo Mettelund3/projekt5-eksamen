@@ -317,8 +317,8 @@ section {
 
 }
 
-/* For medium devices */
-@media screen and (min-width: 576px) {
+
+@media screen and (min-width: 1400px) {
   .nav__list {
     justify-content: center;
     column-gap: 3rem;
