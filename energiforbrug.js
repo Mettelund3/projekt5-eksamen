@@ -75,23 +75,23 @@
  
  
  
-     function chartType(type) {
+    function chartType(type) {
          //destroy Chart
-         myChart.destroy ();
-             if (type === 'bar') {
-                 myChart = new Chart (
-                 document.getElementById('myChart'),
-                 config
-                 );   
-             }        
+        myChart.destroy ();
+            if (type === 'bar') {
+                myChart = new Chart (
+                document.getElementById('myChart'),
+                config
+                );   
+            }        
          
              
-             if (type === 'pie') {
-                 myChart = new Chart (
-                 document.getElementById('myChart'),
-                 config2
-                 );   
-             }
+            if (type === 'pie') {
+                myChart = new Chart (
+                document.getElementById('myChart'),
+                config2
+                );   
+            }
          
      }
  

@@ -194,13 +194,11 @@ section {
 }
 
 .nav__img {
-  min-width: 32px;
-  border-radius: 10%;
+  width: 40px; 
 }
 
 .nav__logo {
-  width: 300px;
-  right: -50px;
+  width: 50px; 
 }
 
 @media screen and (max-width: 1600px) {
@@ -276,6 +274,28 @@ section {
   .nav__name {
     display: none;
   }
+
+  .nav__logo {
+    width: 30px;
+  }
+
+  .nav__img {
+    width: 25px; 
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .nav__name {
+    display: none;
+  }
+
+  .nav__logo {
+    width: 30px; 
+  }
+
+  .nav__img {
+    width: 25px; 
+  }
 }
 
 /* For medium devices */
@@ -300,13 +320,14 @@ section {
   }
   .nav__name {
     font-size: var(--normal-font-size);
-    /* display: block; */ /* Minimalist design, visible labels */
+    
   }
   .nav__link:hover {
     color: var(--first-color);
   }
 
-  /* First design, remove if you choose the minimalist design */
+ 
+  
   .active-link::before {
     content: "";
     position: absolute;
@@ -317,10 +338,6 @@ section {
     border-radius: 50%;
   }
 
-  /* Minimalist design */
-  /* .active-link::before{
-      bottom: -.75rem;
-  } */
 }
 
 /* For large devices */
