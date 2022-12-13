@@ -42,93 +42,91 @@
      
  /*config block*/
  
-     const config = {
-         type: 'bar',
-         data,
-         options: {
-             maintainAspectRatio: false, /*take out default sizing*/
-             scales: {
-                 y: {
-                 beginAtZero: true
-                 }
-             }
+const config = {
+    type: 'bar',
+            data,
+    options: {
+        maintainAspectRatio: false, /*take out default sizing*/
+        scales: {
+            y: {
+            beginAtZero: true
+            }
+            }
+    }
+};   
  
-         }
-     };   
- 
-     const config2 = {
-         type: 'pie',
-         data,
-         options: {
-             maintainAspectRatio: false, /*take out default sizing*/
-             
-         }
-     };
+const config2 = {
+    type: 'pie',
+        data,
+    options: {
+        maintainAspectRatio: false, /*take out default sizing*/    
+    }
+};
      
      
  
  /*render block*/
-     let myChart = new Chart (
-         document.getElementById('myChart'),
-         config
-     );
+let myChart = new Chart (
+    document.getElementById('myChart'),
+    config
+    );
  
  
  
-    function chartType(type) {
-         //destroy Chart
-        myChart.destroy ();
-            if (type === 'bar') {
-                myChart = new Chart (
-                document.getElementById('myChart'),
-                config
-                );   
+function chartType(type) {
+    //destroy Chart
+    myChart.destroy ();
+        if (type === 'bar') {
+            myChart = new Chart (
+            document.getElementById('myChart'),
+            config
+            );   
             }        
          
              
-            if (type === 'pie') {
-                myChart = new Chart (
-                document.getElementById('myChart'),
-                config2
-                );   
+        if (type === 'pie') {
+            myChart = new Chart (
+            document.getElementById('myChart'),
+            config2
+            );   
             }
          
-     }
+};
  
  
  
  /*For each*/ 
- var forbrug = [
-     {
-         Date: "05.12.2022",
-         kwh: "65 kwh"
-     },
-     {
-         Date: "06.12.2022",
-         kwh: "59 kwh"
-     },
-     {
-         Date: "07.12.2022",
-         kwh: "80 kwh"
-     },
-     {
-         Date: "08.12.2022",
-         kwh: "81 kwh"
-     },
-     {
-         Date: "09.12.2022",
-         kwh: "56 kwh"
-     },
-     {
-         Date: "10.12.2022",
-         kwh: "55 kwh"
-     },
-     {
-         Date: "11.12.2022",
-         kwh: "40 kwh"
-     }
- ];
+var forbrug = [
+    {
+    Date: "05.12.2022",
+    kwh: "65 kwh"
+    },
+    {
+    Date: "06.12.2022",
+    kwh: "59 kwh"
+    },
+    {
+    Date: "07.12.2022",
+    kwh: "80 kwh"
+    },
+    {
+    Date: "08.12.2022",
+    kwh: "81 kwh"
+    },
+    {
+    Date: "09.12.2022",
+    kwh: "56 kwh"
+    },
+    {
+    Date: "10.12.2022",
+    kwh: "55 kwh"
+    },
+    {
+    Date: "11.12.2022",
+    kwh: "40 kwh"
+    }
+];
  
- forbrug.forEach(function(forbrug){
-         console.log(forbrug)
-     });
+forbrug.forEach(function(forbrug){
+    console.log(forbrug)
+    });
