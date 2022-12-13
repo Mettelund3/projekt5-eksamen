@@ -479,11 +479,11 @@ section {
   font-size: 20px;
 }
 
-#result {
-  /* Add a transition effect to the result div */
+/* #result {
+  Add a transition effect to the result div
   transition: opacity 1s;
 }
-
+ */
 #menu {
   width: 144px;
   height: 51px;
@@ -498,6 +498,7 @@ section {
   -webkit-appearance: none;
   background-position-x: 95%;
   background-position-y: 15px;
+  cursor: pointer;
 }
 
 .dropdown {
@@ -513,81 +514,103 @@ section {
   margin-left: 10px;
 }
 
-/* Chart */
-
-  .chartMenu {
-    width: 100vw;
-    height: 40px;
-  }
-
-  .chartMenu p {
-    padding: 10px;
-    font-size: 20px;
-  }
-
-
-
-  .chartBox {
-    align-content: center;
-    width: 700px;
-    padding: 20px;
-    border-radius: 20px;
-    border: solid 3px rgb(37, 37, 37);
-    background: white;
-    margin-top: 5%;
-  }
-
-  .btnchart1{
-    margin-bottom: 15%;
-  }
-
-  @media only screen and (max-width: 1200px) {
-    .chartBox {
-        width: 80%;
-        height: 550px;
-        padding: 10px;
-    }    
+.month-selector {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 50%;
 }
 
-  @media only screen and (max-width: 900px) {
-    .chartBox {
-        width: 80%;
-        height: 400px;
-        padding: 10px;
-    }    
+.month-selector__button {
+  background: white;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+  width: 50px;
+  height: 26px;
+  border: none;
+  box-shadow: 0 1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
+  border-radius: 10px;
+}
+
+.month-selector__current-month {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* Chart */
+
+.chartMenu {
+  width: 100vw;
+  height: 40px;
+}
+
+.chartMenu p {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.chartBox {
+  align-content: center;
+  width: 700px;
+  padding: 20px;
+  border-radius: 20px;
+  border: solid 3px rgb(37, 37, 37);
+  background: white;
+  margin-top: 5%;
+}
+
+.btnchart1 {
+  margin-bottom: 15%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .chartBox {
+    width: 80%;
+    height: 550px;
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .chartBox {
+    width: 80%;
+    height: 400px;
+    padding: 10px;
+  }
 }
 
 @media only screen and (max-width: 700px) {
-    .chartBox {
-        width: 80%;
-        height: 400px;
-        padding: 10px;
-    }
-    .chartMenu p {
-        padding: 10px;
-        font-size: 15px;
-      }
-        
+  .chartBox {
+    width: 80%;
+    height: 400px;
+    padding: 10px;
+  }
+  .chartMenu p {
+    padding: 10px;
+    font-size: 15px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
-    .chartBox {
-        width: 80%;
-        height: 300px;
-        padding: 10px;
-    }
-    .btnchart1{
-      margin-bottom: 25%;
-    }     
+  .chartBox {
+    width: 80%;
+    height: 300px;
+    padding: 10px;
+  }
+  .btnchart1 {
+    margin-bottom: 25%;
+  }
 }
 
 @media only screen and (max-width: 300px) {
-    .chartBox {
-        width: 80%;
-        height: 200px;
-        padding: 10px;
-    }
-    .btnchart1{
-      margin-bottom: 25%;
-    }    
+  .chartBox {
+    width: 80%;
+    height: 200px;
+    padding: 10px;
+  }
+  .btnchart1 {
+    margin-bottom: 25%;
+  }
 }

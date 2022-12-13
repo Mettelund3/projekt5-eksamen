@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://use.typekit.net/ulx5pgg.css" />
-    <title>Eneriforbrug</title>
+    <title>Energiforbrug</title>
   </head>
 
   <section class="plantebib">
@@ -43,13 +43,27 @@
         <div id="result"></div>
       </div>
     </div>
+
+    <!--     month selecter-->
+
+    <div class="month-selector">
+      <button class="month-selector__button">
+        <i class="bx bx-left-arrow-alt"></i>
+      </button>
+      <p class="month-selector__current-month">December 10 2022</p>
+      <button class="month-selector__button">
+        <i class="bx bx-right-arrow-alt"></i>
+      </button>
+    </div>
+
+    <!-- Grafer -->
     <div class="container">
-      <div class="chartMenu">      
+      <div class="chartMenu">
         <div class="chartBox">
           <canvas id="myChart"></canvas>
         </div>
-          <button class="btnchart" onclick="chartType('bar')">Bar Chart</button>
-          <button class="btnchart1" onclick="chartType('pie')">Pie Chart</button>
+        <button class="btnchart" onclick="chartType('bar')">Bar Chart</button>
+        <button class="btnchart1" onclick="chartType('pie')">Pie Chart</button>
       </div>
     </div>
   </body>
