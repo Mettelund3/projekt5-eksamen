@@ -1,25 +1,43 @@
- // Get the dropdown menu
- var menu = document.getElementById("menu"); // Add an event listener for the change event
+ var menu = document.getElementById("menu"); 
  menu.addEventListener("change", function () {
-   // Get the selected option
-   var selected = menu.options[menu.selectedIndex]; // Update the result div using a switch statement
+   var selected = menu.options[menu.selectedIndex]; 
    switch (selected.value) {
      case "1":
        break;
      case "2":
        break;
-   } // Loop through all options in the dropdown menu
+   } 
    for (var i = 0; i < menu.options.length; i++) {
-     // Check if the option is selected
      if (menu.options[i].selected) {
-       // If the option is selected, add a "selected" class to the option
        menu.options[i].classList.add("selected");
      } else {
-       // If the option is not selected, remove the "selected" class from the option
        menu.options[i].classList.remove("selected");
      }
    } 
  });
+
+/* Mulighed for at skifte mellem hver måned ved brug af pilene */
+
+const currentMonth = document.querySelector('.month-selector__current-month');
+const leftArrow = document.querySelector('.bx-left-arrow-alt');
+const rightArrow = document.querySelector('.bx-right-arrow-alt');
+
+let month = new Date().getMonth();
+updateMonth(month);
+
+leftArrow.addEventListener('click', () => updateMonth(month - 1));
+rightArrow.addEventListener('click', () => updateMonth(month + 1));
+
+function updateMonth(newMonth) {
+  month = (newMonth + 12) % 12;
+  currentMonth.textContent = getMonthName(month);
+}
+
+function getMonthName(month) {
+  const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+  return monthNames[month];
+}
+
 
  const labels =  ['Man. 05.12.2022 ', 'Tir. 06.12.2022', 'Ons. 07.12.2022', 'Tors. 08.12.2022', 'Fre. 09.12.2022', 'Lør. 10.12.2022', 'Søn. 11.12.2022']
  const data = {
@@ -132,3 +150,5 @@
  forbrug.forEach(function(forbrug){
          console.log(forbrug)
      });
+
+
