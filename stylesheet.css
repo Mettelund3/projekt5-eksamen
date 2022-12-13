@@ -194,11 +194,11 @@ section {
 }
 
 .nav__img {
-  width: 40px; 
+  width: 40px;
 }
 
 .nav__logo {
-  width: 50px; 
+  width: 50px;
 }
 
 @media screen and (max-width: 1600px) {
@@ -280,7 +280,7 @@ section {
   }
 
   .nav__img {
-    width: 25px; 
+    width: 25px;
   }
 }
 
@@ -290,11 +290,11 @@ section {
   }
 
   .nav__logo {
-    width: 30px; 
+    width: 30px;
   }
 
   .nav__img {
-    width: 25px; 
+    width: 25px;
   }
 }
 
@@ -320,14 +320,11 @@ section {
   }
   .nav__name {
     font-size: var(--normal-font-size);
-    
   }
   .nav__link:hover {
     color: var(--first-color);
   }
 
- 
-  
   .active-link::before {
     content: "";
     position: absolute;
@@ -337,7 +334,6 @@ section {
     background-color: var(--first-color);
     border-radius: 50%;
   }
-
 }
 
 /* For large devices */
@@ -537,6 +533,8 @@ section {
 .month-selector__current-month {
   font-size: 1.5em;
   font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
 }
 
 /* Chart */
