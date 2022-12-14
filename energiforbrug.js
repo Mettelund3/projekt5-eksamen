@@ -39,8 +39,8 @@ function getMonthName(month) {
 }
 
 
- const labels =  ['Man. 05.12.2022 ', 'Tir. 06.12.2022', 'Ons. 07.12.2022', 'Tors. 08.12.2022', 'Fre. 09.12.2022', 'Lør. 10.12.2022', 'Søn. 11.12.2022']
- const data = {
+const labels =  ['Man. 05.12.2022 ', 'Tir. 06.12.2022', 'Ons. 07.12.2022', 'Tors. 08.12.2022', 'Fre. 09.12.2022', 'Lør. 10.12.2022', 'Søn. 11.12.2022']
+const data = {
      labels: labels,
      datasets: [{
          label: 'Energiforbrug i kWh',
