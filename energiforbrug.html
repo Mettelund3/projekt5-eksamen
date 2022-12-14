@@ -14,7 +14,43 @@
     <link rel="stylesheet" href="https://use.typekit.net/ulx5pgg.css" />
     <title>Energiforbrug</title>
   </head>
-  <body>
+
+  <body class="bg-main">
+    <header class="header" id="header">
+      <nav class="nav container">
+        <img
+          class="nav__logo text-left"
+          src="images/hydrovertic_logo_small.svg"
+          alt="green_hydrovertic_logo"
+        />
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home-alt nav__icon"></i>
+                <span class="nav__name">Hjem</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#profil" class="nav__link">
+                  <i class='bx bx-bell nav__icon'></i>
+                  <span class="nav__name">Notifikation</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#menu" class="nav__link">
+                <i class="bx bx-menu nav__icon sidebarOpen"></i>
+                <span class="nav__name">Menu</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <img class="nav__img"src="images/globe_icon.svg"alt="black_globe_icon_language"/>
+      </nav>
+    </header>
+
     <section class="bg-head header-space">
       <div class="container">
         <div class="text-left">
@@ -70,44 +106,7 @@
     </div>
   </body>
 
-  <body class="bg-main">
-    <header class="header" id="header">
-      <nav class="nav container">
-        <img
-          class="nav__logo text-left"
-          src="images/hydrovertic_logo_small.svg"
-          alt="green_hydrovertic_logo"
-        />
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a href="#home" class="nav__link active-link">
-                <i class="bx bx-home-alt nav__icon"></i>
-                <span class="nav__name">Hjem</span>
-              </a>
-            </li>
-
-            <li class="nav__item">
-              <a href="#profil" class="nav__link">
-                <i class="bx bx-user nav__icon"></i>
-                <span class="nav__name">Profil</span>
-              </a>
-            </li>
-
-            <li class="nav__item">
-              <a href="#menu" class="nav__link">
-                <i class="bx bx-menu nav__icon sidebarOpen"></i>
-                <span class="nav__name">Menu</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <img
-          class="nav__img"
-          src="images/globe_icon.svg"
-          alt="black_globe_icon_language"
-        />
-      </nav>
-    </header>
+  
+    
   </body>
 </html>
