@@ -32,16 +32,14 @@
   --h2-font-weight-semibold: 600;
   --h2-font-size-small: 1.25rem;
 
-
   --ff-h3: "calibri", sans-serif;
   --h3-font-size: 1.25rem;
   --h3-font-weight: 400;
 
   --ff-p-dialog: "calibri", sans-serif;
   --font-size-p: 1.125rem;
-  
+
   --body-font: "calibri", sans-serif;
-  
 
   --p-font-weight: 400;
   --normal-font-size: 0.938rem;
@@ -114,8 +112,6 @@ img {
   height: auto;
 }
 
-
-
 .bg-head {
   background-color: var(--clr-headerbg);
   height: 100px;
@@ -129,13 +125,10 @@ img {
   text-align: left;
 }
 
-
 .header-space {
   margin-top: 80px;
-  margin-bottom: 60px;  
+  margin-bottom: 60px;
 }
-
-
 
 .space-head {
   margin-top: 2;
@@ -144,7 +137,6 @@ img {
 .mainsection {
   padding-bottom: 1rem 0;
 }
-
 
 .title {
   font-family: var(--ff-h2);
@@ -161,7 +153,6 @@ img {
   margin-top: -15px;
   font-size: 20px;
 }
-
 
 .container {
   margin-inline: auto;
@@ -264,20 +255,17 @@ img {
 
 .nav__name {
   font-size: var(--tiny-font-size);
- 
 }
 
 .nav__icon {
   font-size: 1.5rem;
 }
 
-
 .active-link {
   position: relative;
   color: var(--first-color);
   transition: 0.3s;
 }
-
 
 .active-link::before {
   content: "";
@@ -309,7 +297,6 @@ img {
   .nav__img {
     width: 25px;
   }
-
 }
 
 @media screen and (max-width: 640px) {
@@ -324,11 +311,9 @@ img {
   .nav__img {
     width: 25px;
   }
-
 }
 
 @media screen and (max-width: 1280px) {
- 
 }
 
 @media screen and (min-width: 1400px) {
@@ -552,12 +537,12 @@ img {
 .month-selector {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin: 0 auto;
   width: 50%;
 }
 
-.month-selector__button {
+.month-selector__button1 {
   background: white;
   border: none;
   font-size: 1.5em;
@@ -567,6 +552,20 @@ img {
   border: none;
   box-shadow: 0 1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
   border-radius: 10px;
+  margin-right: 2vw;
+}
+
+.month-selector__button2 {
+  background: white;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+  width: 50px;
+  height: 26px;
+  border: none;
+  box-shadow: 0 1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
+  border-radius: 10px;
+  margin-left: 2vw;
 }
 
 .month-selector__current-month {
