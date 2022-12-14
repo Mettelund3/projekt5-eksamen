@@ -122,20 +122,22 @@ img {
   text-align: left;
 }
 
-.bg-head {
-  background-color: var(--clr-headerbg);
+.headersection_generalt {
+  margin-top: 80px;
+  margin-bottom: 60px;
 }
 
 .space-head {
   margin-top: 2;
 }
-section {
-  padding: 1rem 0;
+.mainsection {
+  padding-bottom: 1rem 0;
+
 }
 
 @media (min-width: 40em) {
-  header,
-  section {
+  .headerdiv,
+  .mainsection {
     padding: 1.5rem 0;
   }
 }
@@ -369,7 +371,7 @@ section {
   height: 72px;
   width: 100%;
   padding: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 2.0625rem;
   background: white;
   border: none;
   outline: none;
