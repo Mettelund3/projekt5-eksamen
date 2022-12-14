@@ -314,9 +314,7 @@ section {
   .pageheadline {
     margin-top: 18%;
   }
-
 }
-
 
 @media screen and (min-width: 1400px) {
   .nav__list {
@@ -422,8 +420,8 @@ section {
   border: 1px solid #ddd;
   margin-bottom: 12px;
   text-align: center;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 34px;
+  margin-right: 34px;
   border-radius: 10px;
   margin-top: 60px;
 }
@@ -433,8 +431,8 @@ section {
   width: 80%;
   font-size: 18px;
   margin-top: 20px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 34px;
+  margin-right: 34px;
 }
 
 #myTable th,
@@ -454,26 +452,26 @@ section {
   background-color: #f1f1f1;
 }
 
-.headersection {
+.plantebib {
   margin-top: 80px;
   margin-bottom: 100px;
 }
 
-.headerdiv {
+.plantebibdiv {
   background-color: #e0f2cb;
   height: 100px;
 }
 
-.headeroverskrift {
+.plantebiboverskrift {
   padding-top: 20px;
   text-align: left;
-  margin-left: 10%;
+  padding-left: 34px;
   font-size: 25px;
 }
 
-.header2overskrift {
+.plantebib2overskrift {
   margin-top: -15px;
-  margin-left: 10%;
+  padding-left: 34px;
   font-size: 20px;
 }
 
@@ -496,7 +494,7 @@ section {
 .tilbageknap {
   background-color: #ffffff;
   padding: 12px 20px;
-  margin-left: 10%;
+  margin-left: 34px;
   border-radius: 10px;
   font-size: 20px;
 }
