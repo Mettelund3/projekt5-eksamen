@@ -800,6 +800,7 @@ margin-left: 5px;
   float: right;
   margin-top: -42px;
   height: 30px;
+  width: 115px;
   border: none;
   border-radius: 10px;
   background-color: white;
@@ -808,14 +809,68 @@ margin-left: 5px;
 }
 
 .undersoeg_txt  {
-  float: right;
-  margin-top: 6px;
+  float: left;
+  margin-top: 7px;
   margin-right: 13px;
 }
 
 .soeg {
   float: left;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
 }
+
+.note_log {
+  padding-top: 70px;
+}
+
+.noterp, .plog {
+  margin-top: -42px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
+}
+
+.noterp {
+  float: left;
+  margin-right: 5vw;
+  width: 125px;
+}
+.plog {
+  float: right;
+  margin-left: 5vw;
+  width: 100px;
+}
+
+.plog_txt, .noterp_txt  {
+  margin-top: 9px;
+  margin-right: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  float: left;
+
+}
+
+.noteikon, .logikon {
+  float: left;
+  padding-top: 9px;
+  padding-left: 9px;
+  padding-right: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* Parameter oversigt css slut */
 
