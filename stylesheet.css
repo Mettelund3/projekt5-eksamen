@@ -838,6 +838,12 @@ margin-left: 5px;
   margin-right: 13px;
 }
 
+.logindlogo {
+  position: absolute;
+  margin-top: 10px;
+  align-content: center;
+}
+
 .soeg {
   float: left;
 }
