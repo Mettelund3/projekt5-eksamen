@@ -11,7 +11,9 @@
   <link rel="stylesheet" href="https://use.typekit.net/ulx5pgg.css">   
   <title>Parameter oversigt</title>
 </head>
-<body class="po_body">
+<body class="bg-main">
+
+<!--Nav start -->
 
     <header class="header" id="header">
         <nav class="nav container">
@@ -44,7 +46,7 @@
         </nav>
     </header>
 
-    
+    <!--Grønne header start -->
 
     <section class="po_headersection">
     <div class="po_headerdiv">
@@ -53,16 +55,24 @@
     </div>
     </section>
 
-    
-            <div class="po_basil">
-                <img class="tdbilleder" src="images/basilikum.png"></img>
-                <p class="tdtext">Basilikum</p>
-            </div>
-            
-    
+    <!--Grønne header slut -->
 
-    <!-- Parameter rangeslider -->
+    <!--Basilikum kort start -->
+
+    <div class="po_basil">
+      <img class="tdbilleder" src="images/basilikum.png"></img>
+      <p class="tdtext">Basilikum</p>
+    </div>
+    
+            
+    <!--Basilikum kort slut -->
+
+    <!-- Parameter rangesliders start -->
     <div class="slidecontainer">
+      <div class="note_log">
+        <button class="noterp"><img class="noteikon" src="images/note_icon.svg" alt="Note ikon"><p class="noterp_txt">Notér problem</p></button>
+        <button class="plog"><img class="logikon" src="images/log_icon.svg" alt="Log ikon"><p class="plog_txt">Plante log</p></button>
+      </div>
       <h2 class="po_overskrift">Parametre</h2>
       <div class="ph_rs">
         <p>PH: <span id="txt1"></span></p>
@@ -99,5 +109,8 @@
         <input type="range" min="0" max="6.0" step="0.1" value="" class="slider" id="ec_slider">
       </div>
     </div>
+
+     <!-- Parameter rangesliders slut -->
+
 </body>
 </html>

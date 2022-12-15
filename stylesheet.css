@@ -498,8 +498,6 @@ img {
   font-size: 20px;
 }
 
-/* plantebibliotek slut */
-
 /* #result {
   Add a transition effect to the result div
   transition: opacity 1s;
@@ -654,13 +652,9 @@ img {
 
 /* Parameter oversigt css start */
 
-.po_body {
-  background-color: var(--clr-bg);
-}
-
 .po_headersection {
   margin-top: 80px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .po_headerdiv {
@@ -681,12 +675,22 @@ img {
   font-size: 16px;
 }
 
+<<<<<<< HEAD
 .po_basil {
   text-align: left;
   height: 104px;
   margin-top: 50px;
   border-radius: 10px;
 }
+=======
+.po_basil  {
+    height: 104px;
+    width: 90vw;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 5vw;
+  }
+>>>>>>> 63b9ea3d866559006b9687946bb8729c5f38e008
 
 .po_overskrift {
   padding-top: 20px;
@@ -694,8 +698,8 @@ img {
 }
 
 .slidecontainer {
-  width: 100%;
-  padding: 20px;
+  width: 90vw;
+  margin-left: 5vw;
   padding-bottom: 140px;
 }
 
@@ -823,26 +827,39 @@ img {
   margin-left: 5px;
 }
 
+/* Undersøg knap start */
+
 .undersoeg_btn {
   float: right;
   margin-top: -42px;
   height: 30px;
+  width: 115px;
   border: none;
   border-radius: 10px;
   background-color: white;
   box-shadow: 0 1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
 }
 
+<<<<<<< HEAD
 .undersoeg_txt {
   float: right;
   margin-top: 6px;
+=======
+.undersoeg_txt  {
+  float: left;
+  margin-top: 7px;
+>>>>>>> 63b9ea3d866559006b9687946bb8729c5f38e008
   margin-right: 13px;
 }
 
 .soeg {
   float: left;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
 }
 
+<<<<<<< HEAD
 /* Parameter oversigt css slut */
 
 /* fejl notifikation */
@@ -941,3 +958,248 @@ img {
 }
 
 /* slut på fejl notifikation */
+=======
+.note_log {
+  padding-top: 70px;
+}
+
+.noterp, .plog {
+  margin-top: -42px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
+}
+
+.noterp {
+  float: left;
+  margin-right: 5vw;
+  width: 125px;
+}
+.plog {
+  float: right;
+  margin-left: 5vw;
+  width: 100px;
+}
+
+.plog_txt, .noterp_txt  {
+  margin-top: 9px;
+  margin-right: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  float: left;
+
+}
+
+.noteikon, .logikon {
+  float: left;
+  padding-top: 9px;
+  padding-left: 9px;
+  padding-right: 7px;
+}
+
+/* Parameter oversigt css slut */
+
+/* Log ind side */
+
+.logindsection {
+  height: 350px;
+  background-color: #DFF2C9;
+  padding: 20px;
+}
+
+.logindbillede {
+  height: 280px;
+  width: 100%;
+}
+
+.logindbillede1 {
+  height: 300px;
+  width: 100%;
+}
+
+.logindknap {
+  display: flex;
+  background-color: #009439;
+  flex-direction: column;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 15px;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 600;
+  font-family: var(--ff-h1);
+  border-radius: 10px;
+}
+
+.logindlogo {
+  position: absolute;
+  margin-top: 10px;
+  align-content: center;
+}
+
+.tilbagebtn {
+  background-color: #ffffff;
+  border-style: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+
+.space{
+  padding-bottom: 25%;
+}
+
+/* BTN Modul*/
+
+.btnmodul {
+  display: inline-flex;
+  justify-content: space-between;
+  height: 72px;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 2.0625rem;
+  background: white;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  overflow: hidden;
+  font-family: var(--ff-h2);
+  font-size: var(--h2-font-size-small);
+  font-weight: var(--h2-font-weight-semibold);
+  cursor: pointer;
+}
+
+.button__text1{
+  background: linear-gradient(to right, green 10%, white 10%, white );
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  height: 100%;
+}
+
+
+.button__text2{
+  background: linear-gradient(to right, red 10%, white 10%, white );
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  height: 100%;
+}
+
+.button__icon1{
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  height: 100%;
+}
+
+.checkbox1 {
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+}
+
+.containerchb{
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+/* Niveau oversigt start*/
+.niveauer {
+  padding-bottom: 110px;
+}
+
+.niv_headersection {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.niv_headerdiv {
+  background-color: #e0f2cb;
+  height: 100px;
+}
+
+.niv_headeroverskrift {
+  padding-top: 20px;
+  text-align: left;
+  padding-left: 34px;
+  font-size: 25px;
+}
+
+.niv_header2overskrift {
+  margin-top: -15px;
+  padding-left: 34px;
+  font-size: 16px;
+}
+
+.niv_basil  {
+  height: 104px;
+  width: 90vw;
+  background: linear-gradient(to right, green 5%, white 5%, white );
+  border-radius: 10px;
+  margin-left: 5vw;
+}
+
+.niv1_top {
+  padding-top:  25px;
+  padding-left: 7vw;
+  }
+
+.niv1_btm {
+  padding-left: 7vw;
+}
+
+.potteplante {
+  width: 70px;
+  float: right;
+  padding-top: 15px;
+  margin-right: 6vw;
+}
+
+.niv_to, .niv_tre, .niv_fire, .niv_fem  {
+  height: 104px;
+  width: 90vw;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 5vw;
+}
+
+.niv2_txt, .niv3_txt, .niv4_txt, .niv5_txt {
+  padding-top:  43px;
+  padding-left: 7vw;
+}
+
+.plus_btn {
+  width: 90px;
+  height: 50px;
+  float: right;
+  border: none;
+  border-radius: 10px;
+  margin-top:  28px;
+  margin-right: 7vw;
+  background-color: white;
+  box-shadow: 0 3px 6px hsla(var(--hue), var(--sat), 15%, 0.15);
+}
+
+.plustegn {
+  font-size: 55px;
+  font-weight: lighter;
+  margin-top: -5px;
+}
+>>>>>>> 63b9ea3d866559006b9687946bb8729c5f38e008
