@@ -652,10 +652,6 @@ img {
 
 /* Parameter oversigt css start */
 
-.po_body {
-  background-color: var(--clr-bg);
-}
-
 .po_headersection {
   margin-top: 80px;
   margin-bottom: 50px;
