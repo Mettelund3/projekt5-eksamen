@@ -794,26 +794,7 @@ position: absolute;
 margin-left: 5px;
 }
 
-.undersoeg_btn {
-  float: right;
-  margin-top: -42px;
-  height: 30px;
-  border: none;
-  border-radius: 10px;
-  background-color: white;
-  box-shadow: 0 1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
-
-}
-
-.undersoeg_txt  {
-  float: right;
-  margin-top: 6px;
-  margin-right: 13px;
-}
-
-.soeg {
-  float: left;
-}
+/* Undersøg knap start */
 
 .undersoeg_btn {
   float: right;
@@ -836,6 +817,10 @@ margin-left: 5px;
   float: left;
 }
 
+/* Undersøg knap slut */
+
+/* Undersøg knap start */
+
 .undersoeg_btn {
   float: right;
   margin-top: -42px;
@@ -857,6 +842,31 @@ margin-left: 5px;
   float: left;
 }
 
+/* Undersøg knap slut */
 
+/* Undersøg knap start */
+
+.undersoeg_btn {
+  float: right;
+  margin-top: -42px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
+
+}
+
+.undersoeg_txt  {
+  float: right;
+  margin-top: 6px;
+  margin-right: 13px;
+}
+
+.soeg {
+  float: left;
+}
+
+/* Undersøg knap slut */
 
 /* Parameter oversigt css slut */
