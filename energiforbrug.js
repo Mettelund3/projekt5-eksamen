@@ -98,8 +98,8 @@ function chartType(type) {
             myChart = new Chart (
             document.getElementById('myChart'),
             config
-            );   
-            }        
+            );
+        }        
          
              
         if (type === 'pie') {
@@ -107,7 +107,7 @@ function chartType(type) {
             document.getElementById('myChart'),
             config2
             );   
-            }
+        }
          
 };
  
