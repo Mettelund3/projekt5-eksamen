@@ -1013,14 +1013,16 @@ margin-left: 5px;
 
 .niv1_top {
   padding-top:  20px;
-  padding-left: 6vw;
+  padding-left: 7vw;
   }
 
 .niv1_btm {
-  padding-left: 6vw;
+  padding-left: 7vw;
 }
 
 .potteplante {
   width: 70px;
   float: right;
+  padding-top: 15px;
+  margin-right: 6vw;
 }
