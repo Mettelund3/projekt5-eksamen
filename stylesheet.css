@@ -675,13 +675,13 @@ img {
   font-size: 16px;
 }
 
-.po_basil  {
-    height: 104px;
-    width: 90vw;
-    background-color: white;
-    border-radius: 10px;
-    margin-left: 5vw;
-  }
+.po_basil {
+  height: 104px;
+  width: 90vw;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 5vw;
+}
 
 .po_overskrift {
   padding-top: 20px;
@@ -700,12 +700,16 @@ img {
   height: 25px;
   outline: none;
   opacity: 0.7;
-  -webkit-transition: .2s;
-  transition: opacity .2s;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
   box-shadow: 0px 3px 10px 0.1px;
   border-radius: 10px;
-  background-image: linear-gradient(to left, 
-  red 0% 46%, green 46% 57%,red 57% 100%);
+  background-image: linear-gradient(
+    to left,
+    red 0% 46%,
+    green 46% 57%,
+    red 57% 100%
+  );
 }
 
 #temp_slider {
@@ -714,12 +718,16 @@ img {
   height: 25px;
   outline: none;
   opacity: 0.7;
-  -webkit-transition: .2s;
-  transition: opacity .2s;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
   box-shadow: 0px 3px 10px 0.1px;
   border-radius: 10px;
-  background-image: linear-gradient(to left, 
-  red 0% 34%, green 34% 59%,red 59% 100%);
+  background-image: linear-gradient(
+    to left,
+    red 0% 34%,
+    green 34% 59%,
+    red 59% 100%
+  );
 }
 
 #rh_slider {
@@ -728,12 +736,16 @@ img {
   height: 25px;
   outline: none;
   opacity: 0.7;
-  -webkit-transition: .2s;
-  transition: opacity .2s;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
   box-shadow: 0px 3px 10px 0.1px;
   border-radius: 10px;
-  background-image: linear-gradient(to left, 
-  red 0% 40%, green 40% 60%,red 60% 100%);
+  background-image: linear-gradient(
+    to left,
+    red 0% 40%,
+    green 40% 60%,
+    red 60% 100%
+  );
 }
 
 #co2_slider {
@@ -742,12 +754,16 @@ img {
   height: 25px;
   outline: none;
   opacity: 0.7;
-  -webkit-transition: .2s;
-  transition: opacity .2s;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
   box-shadow: 0px 3px 10px 0.1px;
   border-radius: 10px;
-  background-image: linear-gradient(to left, 
-  red 0% 50%, green 50% 80%,red 80% 100%);
+  background-image: linear-gradient(
+    to left,
+    red 0% 50%,
+    green 50% 80%,
+    red 80% 100%
+  );
 }
 
 #ec_slider {
@@ -756,12 +772,16 @@ img {
   height: 25px;
   outline: none;
   opacity: 0.7;
-  -webkit-transition: .2s;
-  transition: opacity .2s;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
   box-shadow: 0px 3px 10px 0.1px;
   border-radius: 10px;
-  background-image: linear-gradient(to left, 
-  red 0% 73%, green 73% 83%,red 83% 100%);
+  background-image: linear-gradient(
+    to left,
+    red 0% 73%,
+    green 73% 83%,
+    red 83% 100%
+  );
 }
 
 .slider:hover {
@@ -773,21 +793,29 @@ img {
   appearance: none;
   width: 14px;
   height: 35px;
-  background: #FBFBFB;
+  background: #fbfbfb;
   cursor: pointer;
   border-radius: 3px;
   box-shadow: 0px 3px 6px 0.1px;
 }
 
-#ikon1, #ikon2, #ikon3, #ikon4, #ikon5 {
-display: none;
-margin-left: 110px;
-margin-top: -37px;
-position: absolute;
+#ikon1,
+#ikon2,
+#ikon3,
+#ikon4,
+#ikon5 {
+  display: none;
+  margin-left: 110px;
+  margin-top: -37px;
+  position: absolute;
 }
 
-#txt1, #txt2, #txt3, #txt4, #txt5 {
-margin-left: 5px;
+#txt1,
+#txt2,
+#txt3,
+#txt4,
+#txt5 {
+  margin-left: 5px;
 }
 
 /* Undersøg knap start */
@@ -801,10 +829,9 @@ margin-left: 5px;
   border-radius: 10px;
   background-color: white;
   box-shadow: 0 1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
-
 }
 
-.undersoeg_txt  {
+.undersoeg_txt {
   float: left;
   margin-top: 7px;
   margin-right: 13px;
@@ -821,7 +848,8 @@ margin-left: 5px;
   padding-top: 70px;
 }
 
-.noterp, .plog {
+.noterp,
+.plog {
   margin-top: -42px;
   height: 30px;
   border: none;
@@ -841,16 +869,17 @@ margin-left: 5px;
   width: 100px;
 }
 
-.plog_txt, .noterp_txt  {
+.plog_txt,
+.noterp_txt {
   margin-top: 9px;
   margin-right: 10px;
   font-size: 12px;
   font-weight: bold;
   float: left;
-
 }
 
-.noteikon, .logikon {
+.noteikon,
+.logikon {
   float: left;
   padding-top: 9px;
   padding-left: 9px;
@@ -863,7 +892,7 @@ margin-left: 5px;
 
 .logindsection {
   height: 350px;
-  background-color: #DFF2C9;
+  background-color: #dff2c9;
   padding: 20px;
 }
 
@@ -910,7 +939,7 @@ margin-left: 5px;
   margin-bottom: 100px;
 }
 
-.space{
+.space {
   padding-bottom: 25%;
 }
 
@@ -934,24 +963,23 @@ margin-left: 5px;
   cursor: pointer;
 }
 
-.button__text1{
-  background: linear-gradient(to right, green 10%, white 10%, white );
+.button__text1 {
+  background: linear-gradient(to right, green 10%, white 10%, white);
   display: inline-flex;
   align-items: center;
   padding: 0 24px;
   height: 100%;
 }
 
-
-.button__text2{
-  background: linear-gradient(to right, red 10%, white 10%, white );
+.button__text2 {
+  background: linear-gradient(to right, red 10%, white 10%, white);
   display: inline-flex;
   align-items: center;
   padding: 0 24px;
   height: 100%;
 }
 
-.button__icon1{
+.button__icon1 {
   display: inline-flex;
   align-items: center;
   padding: 0 24px;
@@ -964,7 +992,7 @@ margin-left: 5px;
   height: 100%;
 }
 
-.containerchb{
+.containerchb {
   display: block;
   position: relative;
   padding-left: 35px;
@@ -976,7 +1004,6 @@ margin-left: 5px;
   -ms-user-select: none;
   user-select: none;
 }
-
 
 /* Niveau oversigt start*/
 
@@ -1004,18 +1031,17 @@ margin-left: 5px;
   font-size: 16px;
 }
 
-.niv_basil  {
+.niv_basil {
   height: 104px;
   width: 90vw;
-  background: linear-gradient(to right, green 5%, white 5%, white );
+  background: linear-gradient(to right, green 5%, white 5%, white);
   border-radius: 10px;
   margin-left: 5vw;
 }
 
 .niv1_top {
-  padding-top:  25px;
+  padding-top: 25px;
   padding-left: 7vw;
-  color: #343434;
   }
 
 .niv1_btm {
@@ -1030,7 +1056,10 @@ margin-left: 5px;
   margin-right: 6vw;
 }
 
-.niv_to, .niv_tre, .niv_fire, .niv_fem  {
+.niv_to,
+.niv_tre,
+.niv_fire,
+.niv_fem {
   height: 104px;
   width: 90vw;
   background-color: white;
@@ -1038,8 +1067,11 @@ margin-left: 5px;
   margin-left: 5vw;
 }
 
-.niv2_txt, .niv3_txt, .niv4_txt, .niv5_txt {
-  padding-top:  43px;
+.niv2_txt,
+.niv3_txt,
+.niv4_txt,
+.niv5_txt {
+  padding-top: 43px;
   padding-left: 7vw;
   color: #343434;
 }
@@ -1050,7 +1082,7 @@ margin-left: 5px;
   float: right;
   border: none;
   border-radius: 10px;
-  margin-top:  28px;
+  margin-top: 28px;
   margin-right: 7vw;
   background-color: white;
   box-shadow: 0 3px 6px hsla(var(--hue), var(--sat), 15%, 0.15);
