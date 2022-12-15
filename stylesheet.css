@@ -912,6 +912,8 @@ margin-left: 5px;
 }
 
 .button__icon1{
+display: inline-flex;
 align-items: center;
-
+padding: 0 24px;
+height: 100%;
 }
