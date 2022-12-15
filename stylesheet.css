@@ -512,11 +512,6 @@ img {
   box-shadow: 0 1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
   border-radius: 10px;
   padding-left: 25px;
-  background: url(images/keyboard_arrow_down_black_24dp.svg);
-  background-repeat: no-repeat;
-  -webkit-appearance: none;
-  background-position-x: 95%;
-  background-position-y: 15px;
   cursor: pointer;
 }
 
@@ -1110,7 +1105,7 @@ img {
 }
 
 /* Style the button */
-.button {
+.button_noti {
   background-color: white;
   border: none;
   color: black;
@@ -1123,16 +1118,16 @@ img {
   width: 80%;
   box-shadow: 0 -1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
   border-radius: 10px;
-  background: url(images/keyboard_arrow_down_black_24dp.svg);
-  background-repeat: no-repeat;
-  background-position-x: 90%;
-  background-position-y: 12px;
   cursor: pointer;
 }
 
 .noti_fejl {
   float: left;
   padding-right: 10px;
+}
+
+.noti_pilned {
+  float: right;
 }
 
 /* Style the options when they are revealed */
@@ -1158,6 +1153,7 @@ img {
 .what {
   padding-left: 15px;
   padding-top: 2px;
+  color: #343434;
 }
 
 .when {
@@ -1208,6 +1204,17 @@ img {
 
 .menu-bar ul li:hover .sub-menu-1 ul li a:hover {
   color: #b2ff00;
+}
+
+.videre_fejl_btn {
+  background-color: #ffffff;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0 3px 6px hsla(var(--hue), var(--sat), 15%, 0.15);
+  margin-top: 30px;
 }
 
 /* slut til notifikation */

@@ -63,17 +63,20 @@
 
     <!-- dropdown -->
     <div class="notifikation">
-      <button class="button" onclick="revealOptions()">
+      <button class="button_noti" onclick="revealOptions()">
         Fejl: 5<img class="noti_fejl" src="images/error.svg" />
+        <img class="noti_pilned" src="images/arrowdown.svg" />
       </button>
       <div class="options" id="options">
-        <div class="box1">
-          <p class="when">05/12 - kl. 22:05</p>
-          <break></break>
-          <p class="where">Modul 1 > Niveau 2</p>
-          <break></break>
-          <p class="what">EC niveau er for højt</p>
-        </div>
+        <a href="#">
+          <div class="box1">
+            <p class="when">05/12 - kl. 22:05</p>
+            <break></break>
+            <p class="where">Modul 1 > Niveau 2</p>
+            <break></break>
+            <p class="what">EC niveau er for højt</p>
+          </div>
+        </a>
         <div class="box2">
           <p class="when">05/12 - kl. 22:05</p>
           <break></break>
@@ -102,6 +105,9 @@
           <break></break>
           <p class="what">CO2 niveau er for højt</p>
         </div>
+        <a href="" class="space">
+          <button class="videre_fejl_btn">Videre</button>
+        </a>
       </div>
     </div>
   </body>
