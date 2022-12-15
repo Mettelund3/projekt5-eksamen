@@ -860,3 +860,17 @@ margin-left: 5px;
   margin-top: 10px;
   align-content: center;
 }
+
+.tilbagebtn {
+  background-color: #ffffff;
+  border-style: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+
+.space{
+  padding-bottom: 25%;
+}
+
