@@ -683,9 +683,9 @@ img {
 
 .po_basil {
   text-align: left;
-    height: 104px;
-    margin-top: 50px;
-    border-radius: 10px;
+  height: 104px;
+  margin-top: 50px;
+  border-radius: 10px;
 }
 
 .po_overskrift {
@@ -705,12 +705,16 @@ img {
   height: 25px;
   outline: none;
   opacity: 0.7;
-  -webkit-transition: .2s;
-  transition: opacity .2s;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
   box-shadow: 0px 3px 10px 0.1px;
   border-radius: 10px;
-  background-image: linear-gradient(to left, 
-  red 0% 46%, green 46% 57%,red 57% 100%);
+  background-image: linear-gradient(
+    to left,
+    red 0% 46%,
+    green 46% 57%,
+    red 57% 100%
+  );
 }
 
 #temp_slider {
@@ -719,12 +723,16 @@ img {
   height: 25px;
   outline: none;
   opacity: 0.7;
-  -webkit-transition: .2s;
-  transition: opacity .2s;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
   box-shadow: 0px 3px 10px 0.1px;
   border-radius: 10px;
-  background-image: linear-gradient(to left, 
-  red 0% 34%, green 34% 59%,red 59% 100%);
+  background-image: linear-gradient(
+    to left,
+    red 0% 34%,
+    green 34% 59%,
+    red 59% 100%
+  );
 }
 
 #rh_slider {
@@ -733,12 +741,16 @@ img {
   height: 25px;
   outline: none;
   opacity: 0.7;
-  -webkit-transition: .2s;
-  transition: opacity .2s;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
   box-shadow: 0px 3px 10px 0.1px;
   border-radius: 10px;
-  background-image: linear-gradient(to left, 
-  red 0% 40%, green 40% 60%,red 60% 100%);
+  background-image: linear-gradient(
+    to left,
+    red 0% 40%,
+    green 40% 60%,
+    red 60% 100%
+  );
 }
 
 #co2_slider {
@@ -747,12 +759,16 @@ img {
   height: 25px;
   outline: none;
   opacity: 0.7;
-  -webkit-transition: .2s;
-  transition: opacity .2s;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
   box-shadow: 0px 3px 10px 0.1px;
   border-radius: 10px;
-  background-image: linear-gradient(to left, 
-  red 0% 50%, green 50% 80%,red 80% 100%);
+  background-image: linear-gradient(
+    to left,
+    red 0% 50%,
+    green 50% 80%,
+    red 80% 100%
+  );
 }
 
 #ec_slider {
@@ -761,12 +777,16 @@ img {
   height: 25px;
   outline: none;
   opacity: 0.7;
-  -webkit-transition: .2s;
-  transition: opacity .2s;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
   box-shadow: 0px 3px 10px 0.1px;
   border-radius: 10px;
-  background-image: linear-gradient(to left, 
-  red 0% 73%, green 73% 83%,red 83% 100%);
+  background-image: linear-gradient(
+    to left,
+    red 0% 73%,
+    green 73% 83%,
+    red 83% 100%
+  );
 }
 
 .slider:hover {
@@ -778,21 +798,29 @@ img {
   appearance: none;
   width: 14px;
   height: 35px;
-  background: #FBFBFB;
+  background: #fbfbfb;
   cursor: pointer;
   border-radius: 3px;
   box-shadow: 0px 3px 6px 0.1px;
 }
 
-#ikon1, #ikon2, #ikon3, #ikon4, #ikon5 {
-display: none;
-margin-left: 110px;
-margin-top: -37px;
-position: absolute;
+#ikon1,
+#ikon2,
+#ikon3,
+#ikon4,
+#ikon5 {
+  display: none;
+  margin-left: 110px;
+  margin-top: -37px;
+  position: absolute;
 }
 
-#txt1, #txt2, #txt3, #txt4, #txt5 {
-margin-left: 5px;
+#txt1,
+#txt2,
+#txt3,
+#txt4,
+#txt5 {
+  margin-left: 5px;
 }
 
 .undersoeg_btn {
@@ -803,10 +831,9 @@ margin-left: 5px;
   border-radius: 10px;
   background-color: white;
   box-shadow: 0 1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
-
 }
 
-.undersoeg_txt  {
+.undersoeg_txt {
   float: right;
   margin-top: 6px;
   margin-right: 13px;
@@ -817,3 +844,100 @@ margin-left: 5px;
 }
 
 /* Parameter oversigt css slut */
+
+/* fejl notifikation */
+
+.menu-bar {
+  text-align: center;
+}
+
+.overskift_dropdown {
+  margin-left: 30px;
+}
+
+.menu-bar ul {
+  display: inline-flex;
+  list-style: none;
+  color: white;
+}
+
+.menu-bar ul li {
+  width: 325px;
+  margin: 15px;
+  padding: 15px;
+}
+
+.menu-bar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.active,
+.menu-bar ul li:hover {
+  background-color: #2bab0d;
+  border-radius: 3px;
+}
+
+.when,
+.where,
+.what {
+  margin-right: 15px;
+}
+
+.when {
+  font-size: 12px;
+}
+
+.where {
+  font-size: 14px;
+}
+
+.what {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.img_dropdown {
+  margin-right: 8px;
+}
+
+.menu-bar.fa {
+  margin-right: 8px;
+}
+
+.sub-menu-1 {
+  display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+  background: rgb(0, 100, 0);
+  margin-top: 15px;
+  margin-left: -15px;
+  width: 325px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+  display: block;
+  margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
+  width: 250px;
+  padding: 10px;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+  border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+  color: #b2ff00;
+}
+
+/* slut på fejl notifikation */

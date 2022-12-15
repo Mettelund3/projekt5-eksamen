@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <script src="script.js" defer></script>
+    <script src="plantebib.js" defer></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/ulx5pgg.css" />
+    <title>Plantebibliotek</title>
+  </head>
+  <body class="bg-main">
+    <header class="header" id="header">
+      <nav class="nav container">
+        <img
+          class="nav__logo text-left"
+          src="images/hydrovertic_logo_small.svg"
+          alt="green_hydrovertic_logo"
+        />
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home-alt nav__icon"></i>
+                <span class="nav__name">Hjem</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#profil" class="nav__link">
+                <i class="bx bx-user nav__icon"></i>
+                <span class="nav__name">Profil</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#menu" class="nav__link">
+                <i class="bx bx-menu nav__icon sidebarOpen"></i>
+                <span class="nav__name">Menu</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <img
+          class="nav__img"
+          src="images/globe_icon.svg"
+          alt="black_globe_icon_language"
+        />
+      </nav>
+    </header>
+
+    <section class="headersection">
+      <div class="headerdiv">
+        <h2 class="headeroverskrift">Velkommen tilbage</h2>
+        <h3 class="header2overskrift">Seneste ændringer</h3>
+      </div>
+    </section>
+
+
+<!-- dropdown -->
+    <div class="menu-bar">
+        <ul>
+          <li class="active"><a href="#"><div class="img_dropdown"><img src="images/error.svg" alt="error"><div class="overskift_dropdown"><h3>Fejl:10</h3></a></div></div>
+          <div class="sub-menu-1">
+              <ul>
+                  <li class="dd">
+                      <a href="#">
+                          <p class="when">05/12 - kl. 22:05</p>
+                          <break></break>
+                          <p class="where">Modul 1 > Niveau 2</p>
+                          <break></break>
+                          <p class="what">EC niveau er for højt</p>
+                      </a>
+                  </li>
+                  <li><a href="#">Vision</a></li>
+                  <li><a href="#">Team</a></li>
+              </ul>
+          </div>
+          </li>
+      </div>
+
+
+  </body>
+</html>
