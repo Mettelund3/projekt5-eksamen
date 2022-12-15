@@ -857,17 +857,6 @@ margin-left: 5px;
   padding-right: 7px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* Parameter oversigt css slut */
 
 /* Log ind side */
@@ -988,3 +977,50 @@ margin-left: 5px;
   user-select: none;
 }
 
+
+/* Niveau oversigt start*/
+
+.niv_headersection {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.niv_headerdiv {
+  background-color: #e0f2cb;
+  height: 100px;
+}
+
+.niv_headeroverskrift {
+  padding-top: 20px;
+  text-align: left;
+  padding-left: 34px;
+  font-size: 25px;
+}
+
+.niv_header2overskrift {
+  margin-top: -15px;
+  padding-left: 34px;
+  font-size: 16px;
+}
+
+.niv_basil  {
+  height: 104px;
+  width: 90vw;
+  background: linear-gradient(to right, green 5%, white 5%, white );
+  border-radius: 10px;
+  margin-left: 5vw;
+}
+
+.niv1_top {
+  padding-top:  20px;
+  padding-left: 6vw;
+  }
+
+.niv1_btm {
+  padding-left: 6vw;
+}
+
+.potteplante {
+  width: 70px;
+  float: right;
+}
