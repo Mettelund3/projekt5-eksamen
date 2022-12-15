@@ -1175,4 +1175,93 @@ img {
   margin-top: -11px;
 }
 
-/* slut til notifikation */ ;
+.sub-menu-1 {
+  display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+  background: rgb(0, 100, 0);
+  margin-top: 15px;
+  margin-left: -15px;
+  width: 325px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+  display: block;
+  margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
+  width: 250px;
+  padding: 10px;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+  border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+  color: #b2ff00;
+}
+
+/* slut til notifikation */
+
+/* Start til notifikation alt er godt */
+
+.notig_headersection {
+  margin-top: 80px;
+  margin-bottom: 36px;
+}
+
+.notig_headerdiv {
+  background-color: #e0f2cb;
+  height: 100px;
+}
+
+.notig_headeroverskrift {
+  padding-top: 20px;
+  text-align: left;
+  padding-left: 34px;
+  font-size: 25px;
+}
+
+.notig_header2overskrift {
+  margin-top: -15px;
+  padding-left: 34px;
+  font-size: 16px;
+}
+
+.flueben {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flueben_svg {
+  width: 50%;
+  padding-bottom: 60px;
+}
+
+.notigh1 {
+  font-size: 45px;
+  font-weight: bold;
+  color: #343434;
+}
+
+.viderebtn {
+  background-color: #ffffff;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0 3px 6px hsla(var(--hue), var(--sat), 15%, 0.15);
+}
+
+/* Slut til notifikation alt er godt */
