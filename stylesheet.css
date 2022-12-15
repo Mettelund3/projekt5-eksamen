@@ -857,5 +857,6 @@ margin-left: 5px;
 .logindlogo {
   position: absolute;
   margin-top: 10px;
-  align-content: center;
+  margin-left: 15%;
+  margin-right: 15%;
 }
