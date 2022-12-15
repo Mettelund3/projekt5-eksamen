@@ -1007,7 +1007,6 @@ img {
 
 /* Niveau oversigt start*/
 
-
 .niv_headersection {
   margin-top: 80px;
   margin-bottom: 36px;
@@ -1043,7 +1042,7 @@ img {
   padding-top: 25px;
   padding-left: 7vw;
   color: #343434;
-  }
+}
 
 .niv1_btm {
   padding-left: 7vw;
@@ -1095,3 +1094,93 @@ img {
   margin-top: -5px;
   color: #343434;
 }
+/* notifikation */
+
+.menu-bar {
+  text-align: center;
+}
+
+.menu-bar ul {
+  display: inline-flex;
+  list-style: none;
+  color: white;
+}
+
+.menu-bar ul li {
+  width: 325px;
+  margin: 15px;
+  padding: 15px;
+}
+
+.menu-bar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.dd {
+}
+
+.active,
+.menu-bar ul li:hover {
+  background-color: #2bab0d;
+  border-radius: 3px;
+}
+
+.when,
+.where,
+.what {
+  margin-right: 15px;
+}
+
+.when {
+  font-size: 12px;
+}
+
+.where {
+  font-size: 14px;
+}
+
+.what {
+  font-size: 17px;
+  font-weight: bold;
+}
+.menu-bar.fa {
+  margin-right: 8px;
+}
+
+.sub-menu-1 {
+  display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+  background: rgb(0, 100, 0);
+  margin-top: 15px;
+  margin-left: -15px;
+  width: 325px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+  display: block;
+  margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
+  width: 250px;
+  padding: 10px;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+  border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+  color: #b2ff00;
+}
+
+/* slut til notifikation */
