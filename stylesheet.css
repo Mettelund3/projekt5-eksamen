@@ -691,7 +691,7 @@ img {
 .slidecontainer {
   width: 90vw;
   margin-left: 5vw;
-  padding-bottom: 140px;
+  padding-bottom: 60px;
 }
 
 #ph_slider {
@@ -979,13 +979,11 @@ margin-left: 5px;
 
 
 /* Niveau oversigt start*/
-.niveauer {
-  padding-bottom: 110px;
-}
+
 
 .niv_headersection {
   margin-top: 80px;
-  margin-bottom: 50px;
+  margin-bottom: 36px;
 }
 
 .niv_headerdiv {
@@ -1017,10 +1015,12 @@ margin-left: 5px;
 .niv1_top {
   padding-top:  25px;
   padding-left: 7vw;
+  color: #343434;
   }
 
 .niv1_btm {
   padding-left: 7vw;
+  color: #343434;
 }
 
 .potteplante {
@@ -1041,6 +1041,7 @@ margin-left: 5px;
 .niv2_txt, .niv3_txt, .niv4_txt, .niv5_txt {
   padding-top:  43px;
   padding-left: 7vw;
+  color: #343434;
 }
 
 .plus_btn {
@@ -1059,4 +1060,5 @@ margin-left: 5px;
   font-size: 55px;
   font-weight: lighter;
   margin-top: -5px;
+  color: #343434;
 }
