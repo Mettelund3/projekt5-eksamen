@@ -658,7 +658,7 @@ img {
 
 .po_headersection {
   margin-top: 80px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .po_headerdiv {
@@ -679,12 +679,13 @@ img {
   font-size: 16px;
 }
 
-.po_basil {
-  text-align: left;
+.po_basil  {
     height: 104px;
-    margin-top: 50px;
+    width: 90vw;
+    background-color: white;
     border-radius: 10px;
-}
+    margin-left: 5vw;
+  }
 
 .po_overskrift {
   padding-top: 20px;
@@ -692,8 +693,8 @@ img {
 }
 
 .slidecontainer {
-  width: 100%;
-  padding: 20px;
+  width: 90vw;
+  margin-left: 5vw;
   padding-bottom: 140px;
 }
 
@@ -813,5 +814,49 @@ margin-left: 5px;
 .soeg {
   float: left;
 }
+
+.undersoeg_btn {
+  float: right;
+  margin-top: -42px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
+
+}
+
+.undersoeg_txt  {
+  float: right;
+  margin-top: 6px;
+  margin-right: 13px;
+}
+
+.soeg {
+  float: left;
+}
+
+.undersoeg_btn {
+  float: right;
+  margin-top: -42px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
+
+}
+
+.undersoeg_txt  {
+  float: right;
+  margin-top: 6px;
+  margin-right: 13px;
+}
+
+.soeg {
+  float: left;
+}
+
+
 
 /* Parameter oversigt css slut */
