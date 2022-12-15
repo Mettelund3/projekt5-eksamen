@@ -912,8 +912,28 @@ margin-left: 5px;
 }
 
 .button__icon1{
-display: inline-flex;
-align-items: center;
-padding: 0 24px;
-height: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  height: 100%;
 }
+
+.checkbox1 {
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+}
+
+.containerchb{
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
