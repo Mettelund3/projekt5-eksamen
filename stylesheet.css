@@ -979,6 +979,9 @@ margin-left: 5px;
 
 
 /* Niveau oversigt start*/
+.niveauer {
+  padding-bottom: 110px;
+}
 
 .niv_headersection {
   margin-top: 80px;
@@ -1012,7 +1015,7 @@ margin-left: 5px;
 }
 
 .niv1_top {
-  padding-top:  20px;
+  padding-top:  25px;
   padding-left: 7vw;
   }
 
@@ -1025,4 +1028,35 @@ margin-left: 5px;
   float: right;
   padding-top: 15px;
   margin-right: 6vw;
+}
+
+.niv_to, .niv_tre, .niv_fire, .niv_fem  {
+  height: 104px;
+  width: 90vw;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 5vw;
+}
+
+.niv2_txt, .niv3_txt, .niv4_txt, .niv5_txt {
+  padding-top:  43px;
+  padding-left: 7vw;
+}
+
+.plus_btn {
+  width: 90px;
+  height: 50px;
+  float: right;
+  border: none;
+  border-radius: 10px;
+  margin-top:  28px;
+  margin-right: 7vw;
+  background-color: white;
+  box-shadow: 0 3px 6px hsla(var(--hue), var(--sat), 15%, 0.15);
+}
+
+.plustegn {
+  font-size: 55px;
+  font-weight: lighter;
+  margin-top: -5px;
 }
