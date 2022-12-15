@@ -675,22 +675,13 @@ img {
   font-size: 16px;
 }
 
-<<<<<<< HEAD
 .po_basil {
-  text-align: left;
   height: 104px;
-  margin-top: 50px;
+  width: 90vw;
+  background-color: white;
   border-radius: 10px;
+  margin-left: 5vw;
 }
-=======
-.po_basil  {
-    height: 104px;
-    width: 90vw;
-    background-color: white;
-    border-radius: 10px;
-    margin-left: 5vw;
-  }
->>>>>>> 63b9ea3d866559006b9687946bb8729c5f38e008
 
 .po_overskrift {
   padding-top: 20px;
@@ -840,15 +831,9 @@ img {
   box-shadow: 0 1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
 }
 
-<<<<<<< HEAD
 .undersoeg_txt {
-  float: right;
-  margin-top: 6px;
-=======
-.undersoeg_txt  {
   float: left;
   margin-top: 7px;
->>>>>>> 63b9ea3d866559006b9687946bb8729c5f38e008
   margin-right: 13px;
 }
 
@@ -859,111 +844,12 @@ img {
   padding-right: 2px;
 }
 
-<<<<<<< HEAD
-/* Parameter oversigt css slut */
-
-/* fejl notifikation */
-
-.menu-bar {
-  text-align: center;
-}
-
-.overskift_dropdown {
-  margin-left: 30px;
-}
-
-.menu-bar ul {
-  display: inline-flex;
-  list-style: none;
-  color: white;
-}
-
-.menu-bar ul li {
-  width: 325px;
-  margin: 15px;
-  padding: 15px;
-}
-
-.menu-bar ul li a {
-  text-decoration: none;
-  color: white;
-}
-
-.active,
-.menu-bar ul li:hover {
-  background-color: #2bab0d;
-  border-radius: 3px;
-}
-
-.when,
-.where,
-.what {
-  margin-right: 15px;
-}
-
-.when {
-  font-size: 12px;
-}
-
-.where {
-  font-size: 14px;
-}
-
-.what {
-  font-size: 17px;
-  font-weight: bold;
-}
-
-.img_dropdown {
-  margin-right: 8px;
-}
-
-.menu-bar.fa {
-  margin-right: 8px;
-}
-
-.sub-menu-1 {
-  display: none;
-}
-
-.menu-bar ul li:hover .sub-menu-1 {
-  display: block;
-  position: absolute;
-  background: rgb(0, 100, 0);
-  margin-top: 15px;
-  margin-left: -15px;
-  width: 325px;
-}
-
-.menu-bar ul li:hover .sub-menu-1 ul {
-  display: block;
-  margin: 10px;
-}
-
-.menu-bar ul li:hover .sub-menu-1 ul li {
-  width: 250px;
-  padding: 10px;
-  border-bottom: 1px solid #fff;
-  background: transparent;
-  border-radius: 0;
-  text-align: left;
-}
-
-.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
-  border-bottom: none;
-}
-
-.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
-  color: #b2ff00;
-}
-
-/* slut på fejl notifikation */
-=======
 .note_log {
   padding-top: 70px;
 }
 
-.noterp, .plog {
+.noterp,
+.plog {
   margin-top: -42px;
   height: 30px;
   border: none;
@@ -983,16 +869,17 @@ img {
   width: 100px;
 }
 
-.plog_txt, .noterp_txt  {
+.plog_txt,
+.noterp_txt {
   margin-top: 9px;
   margin-right: 10px;
   font-size: 12px;
   font-weight: bold;
   float: left;
-
 }
 
-.noteikon, .logikon {
+.noteikon,
+.logikon {
   float: left;
   padding-top: 9px;
   padding-left: 9px;
@@ -1005,7 +892,7 @@ img {
 
 .logindsection {
   height: 350px;
-  background-color: #DFF2C9;
+  background-color: #dff2c9;
   padding: 20px;
 }
 
@@ -1052,7 +939,7 @@ img {
   margin-bottom: 100px;
 }
 
-.space{
+.space {
   padding-bottom: 25%;
 }
 
@@ -1076,24 +963,23 @@ img {
   cursor: pointer;
 }
 
-.button__text1{
-  background: linear-gradient(to right, green 10%, white 10%, white );
+.button__text1 {
+  background: linear-gradient(to right, green 10%, white 10%, white);
   display: inline-flex;
   align-items: center;
   padding: 0 24px;
   height: 100%;
 }
 
-
-.button__text2{
-  background: linear-gradient(to right, red 10%, white 10%, white );
+.button__text2 {
+  background: linear-gradient(to right, red 10%, white 10%, white);
   display: inline-flex;
   align-items: center;
   padding: 0 24px;
   height: 100%;
 }
 
-.button__icon1{
+.button__icon1 {
   display: inline-flex;
   align-items: center;
   padding: 0 24px;
@@ -1106,7 +992,7 @@ img {
   height: 100%;
 }
 
-.containerchb{
+.containerchb {
   display: block;
   position: relative;
   padding-left: 35px;
@@ -1118,7 +1004,6 @@ img {
   -ms-user-select: none;
   user-select: none;
 }
-
 
 /* Niveau oversigt start*/
 .niveauer {
@@ -1148,18 +1033,18 @@ img {
   font-size: 16px;
 }
 
-.niv_basil  {
+.niv_basil {
   height: 104px;
   width: 90vw;
-  background: linear-gradient(to right, green 5%, white 5%, white );
+  background: linear-gradient(to right, green 5%, white 5%, white);
   border-radius: 10px;
   margin-left: 5vw;
 }
 
 .niv1_top {
-  padding-top:  25px;
+  padding-top: 25px;
   padding-left: 7vw;
-  }
+}
 
 .niv1_btm {
   padding-left: 7vw;
@@ -1172,7 +1057,10 @@ img {
   margin-right: 6vw;
 }
 
-.niv_to, .niv_tre, .niv_fire, .niv_fem  {
+.niv_to,
+.niv_tre,
+.niv_fire,
+.niv_fem {
   height: 104px;
   width: 90vw;
   background-color: white;
@@ -1180,8 +1068,11 @@ img {
   margin-left: 5vw;
 }
 
-.niv2_txt, .niv3_txt, .niv4_txt, .niv5_txt {
-  padding-top:  43px;
+.niv2_txt,
+.niv3_txt,
+.niv4_txt,
+.niv5_txt {
+  padding-top: 43px;
   padding-left: 7vw;
 }
 
@@ -1191,7 +1082,7 @@ img {
   float: right;
   border: none;
   border-radius: 10px;
-  margin-top:  28px;
+  margin-top: 28px;
   margin-right: 7vw;
   background-color: white;
   box-shadow: 0 3px 6px hsla(var(--hue), var(--sat), 15%, 0.15);
@@ -1202,4 +1093,3 @@ img {
   font-weight: lighter;
   margin-top: -5px;
 }
->>>>>>> 63b9ea3d866559006b9687946bb8729c5f38e008
