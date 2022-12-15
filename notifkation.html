@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="stylesheet.css" />
     <script src="script.js" defer></script>
-    <script src="plantebib.js" defer></script>
+    <script src="notifikation.js" defer></script>
     <link
       href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
       rel="stylesheet"
@@ -61,29 +61,48 @@
       </div>
     </section>
 
-
-<!-- dropdown -->
-    <div class="menu-bar">
-        <ul>
-          <li class="active"><a href="#"><div class="img_dropdown"><img src="images/error.svg" alt="error"><div class="overskift_dropdown"><h3>Fejl:10</h3></a></div></div>
-          <div class="sub-menu-1">
-              <ul>
-                  <li class="dd">
-                      <a href="#">
-                          <p class="when">05/12 - kl. 22:05</p>
-                          <break></break>
-                          <p class="where">Modul 1 > Niveau 2</p>
-                          <break></break>
-                          <p class="what">EC niveau er for højt</p>
-                      </a>
-                  </li>
-                  <li><a href="#">Vision</a></li>
-                  <li><a href="#">Team</a></li>
-              </ul>
-          </div>
-          </li>
+    <!-- dropdown -->
+    <div class="notifikation">
+      <button class="button" onclick="revealOptions()">
+        Fejl: 5<img class="noti_fejl" src="images/error.svg" />
+      </button>
+      <div class="options" id="options">
+        <div class="box1">
+          <p class="when">05/12 - kl. 22:05</p>
+          <break></break>
+          <p class="where">Modul 1 > Niveau 2</p>
+          <break></break>
+          <p class="what">EC niveau er for højt</p>
+        </div>
+        <div class="box2">
+          <p class="when">05/12 - kl. 22:05</p>
+          <break></break>
+          <p class="where">Modul 1 > Niveau 2</p>
+          <break></break>
+          <p class="what">Luftfugtighed er for højt</p>
+        </div>
+        <div class="box3">
+          <p class="when">05/12 - kl. 22:05</p>
+          <break></break>
+          <p class="where">Modul 1 > Niveau 2</p>
+          <break></break>
+          <p class="what">Temperatur er for lav</p>
+        </div>
+        <div class="box4">
+          <p class="when">05/12 - kl. 22:05</p>
+          <break></break>
+          <p class="where">Modul 1 > Niveau 2</p>
+          <break></break>
+          <p class="what">PH værdi er for lav</p>
+        </div>
+        <div class="box5">
+          <p class="when">05/12 - kl. 22:05</p>
+          <break></break>
+          <p class="where">Modul 1 > Niveau 2</p>
+          <break></break>
+          <p class="what">CO2 niveau er for højt</p>
+        </div>
       </div>
-
-
+    </div>
   </body>
 </html>

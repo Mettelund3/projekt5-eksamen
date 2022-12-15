@@ -1096,40 +1096,68 @@ img {
 }
 /* notifikation */
 
-.menu-bar {
-  text-align: center;
+/* Make the button and options responsive */
+
+.notifikation {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16vw;
 }
 
-.menu-bar ul {
-  display: inline-flex;
-  list-style: none;
-  color: white;
+.options {
+  padding-top: 2px;
+  display: none;
 }
 
-.menu-bar ul li {
-  width: 325px;
-  margin: 15px;
-  padding: 15px;
-}
-
-.menu-bar ul li a {
+/* Style the button */
+.button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: left;
   text-decoration: none;
-  color: white;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width: 80%;
+  box-shadow: 0 -1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
+  border-radius: 10px;
+  background: url(images/keyboard_arrow_down_black_24dp.svg);
+  background-repeat: no-repeat;
+  background-position-x: 90%;
+  background-position-y: 12px;
+  cursor: pointer;
 }
 
-.dd {
+.noti_fejl {
+  float: left;
+  padding-right: 10px;
 }
 
-.active,
-.menu-bar ul li:hover {
-  background-color: #2bab0d;
-  border-radius: 3px;
+/* Style the options when they are revealed */
+.options.revealed {
+  display: block;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+  background-color: white;
+  margin-top: -5px;
+  height: 90px;
+  width: 80%;
+  box-shadow: 0 2px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
+  border-radius: 0px 0px 10px 10px;
 }
 
 .when,
 .where,
 .what {
-  margin-right: 15px;
+  padding-left: 15px;
+  padding-top: 2px;
 }
 
 .when {
@@ -1138,49 +1166,13 @@ img {
 
 .where {
   font-size: 14px;
+  margin-top: -8px;
 }
 
 .what {
-  font-size: 17px;
+  font-size: 14px;
   font-weight: bold;
-}
-.menu-bar.fa {
-  margin-right: 8px;
+  margin-top: -11px;
 }
 
-.sub-menu-1 {
-  display: none;
-}
-
-.menu-bar ul li:hover .sub-menu-1 {
-  display: block;
-  position: absolute;
-  background: rgb(0, 100, 0);
-  margin-top: 15px;
-  margin-left: -15px;
-  width: 325px;
-}
-
-.menu-bar ul li:hover .sub-menu-1 ul {
-  display: block;
-  margin: 10px;
-}
-
-.menu-bar ul li:hover .sub-menu-1 ul li {
-  width: 250px;
-  padding: 10px;
-  border-bottom: 1px solid #fff;
-  background: transparent;
-  border-radius: 0;
-  text-align: left;
-}
-
-.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
-  border-bottom: none;
-}
-
-.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
-  color: #b2ff00;
-}
-
-/* slut til notifikation */
+/* slut til notifikation */ ;
