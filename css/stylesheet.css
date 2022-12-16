@@ -933,6 +933,7 @@ img {
   border-radius: 10px;
   font-size: 20px;
   margin-bottom: 100px;
+  cursor: pointer;
 }
 
 .space {
