@@ -508,7 +508,7 @@ img {
   transition: opacity 1s;
 }
  */
-#menu {
+#menu, #menu2 {
   width: 144px;
   height: 51px;
   font-size: 22px;
@@ -598,6 +598,12 @@ img {
 
 .btnchart1 {
   margin-bottom: 15%;
+}
+
+.container_energi {
+  margin-top: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -934,6 +940,7 @@ img {
   font-size: 20px;
   margin-bottom: 100px;
   cursor: pointer;
+  margin-left: -12px;
 }
 
 .space {
