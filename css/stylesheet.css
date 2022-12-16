@@ -923,11 +923,17 @@ img {
   border-radius: 10px;
 }
 
+.logindlogo_flexbox {
+  display: flex;
+  justify-content: center;
+}
+
 .logindlogo {
   position: absolute;
   margin-top: 10px;
-  align-content: center;
 }
+
+
 
 .tilbagebtn {
   background-color: #ffffff;
