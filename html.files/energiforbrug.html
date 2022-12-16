@@ -6,12 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/stylesheet.css" />
     <script src="/js.files/energiforbrug.js" defer></script>
+    <<<<<<< HEAD
     <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
     <link
       href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://use.typekit.net/ulx5pgg.css" />
+    =======
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/ulx5pgg.css" />
+    >>>>>>> a2f74b79d4f7cd909f8a2a5c8065373a8326a9ad
     <title>Energiforbrug</title>
   </head>
 
@@ -33,7 +42,7 @@
             </li>
 
             <li class="nav__item">
-              <a href="/html.files/notifikationgood.html" class="nav__link">
+              <a href="#/html.files/notifikationgood.html" class="nav__link">
                 <i class="bx bx-bell nav__icon"></i>
                 <span class="nav__name">Notifikation</span>
               </a>
@@ -70,19 +79,18 @@
     <div class="dropdown">
       <div class="dd1">
         <select id="menu">
-          <option value="1"><h1>Moduler</h1></option>
-          <option value="2"><h1>I alt</h1></option>
+          <option value="1">Moduler</option>
+          <option value="2">I alt</option>
         </select>
         <div id="result"></div>
       </div>
 
       <!--     Dropdown 2 -->
       <div class="dd2">
-        <select id="menu">
-          <option value="1"><h1>Måned</h1></option>
-          <option value="2"><h1>Uge</h1></option>
+        <select id="menu2">
+          <option value="1">Måned</option>
+          <option value="2">Uge</option>
         </select>
-        <div id="result"></div>
       </div>
     </div>
 
@@ -103,16 +111,18 @@
       <div class="chartMenu">
         <div class="chartBox">
           <canvas id="myChart"></canvas>
+          <div class="container_energi">
+            <button
+              class="tilbagebtn"
+              onclick="window.location.href = '/html.files/menu.html';"
+            >
+              Tilbage
+            </button>
+          </div>
         </div>
         <button class="btnchart" onclick="chartType('bar')">Bar Chart</button>
         <button class="btnchart1" onclick="chartType('pie')">Pie Chart</button>
       </div>
     </div>
-
-    <!--  <div class="container">
-      <a href="/html.files/menu.html" class="space">
-        <button class="tilbagebtn">Tilbage</button>
-      </a>
-    </div> -->
   </body>
 </html>
