@@ -276,6 +276,7 @@ img {
   border-radius: 50%;
 }
 
+
 /* Change background header */
 .scroll-header {
   box-shadow: 0 1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
