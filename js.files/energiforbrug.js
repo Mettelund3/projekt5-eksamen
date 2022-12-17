@@ -3,9 +3,9 @@
    var selected = menu.options[menu.selectedIndex]; 
    switch (selected.value) {
      case "1":
-       break;
+      result.innerHTML = "You selected the Module option.";
      case "2":
-       break;
+      result.innerHTML = "You selected the I alt option.";
    } 
    for (var i = 0; i < menu.options.length; i++) {
      if (menu.options[i].selected) {
