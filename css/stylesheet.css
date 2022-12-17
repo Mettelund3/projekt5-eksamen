@@ -382,11 +382,19 @@ img {
 }
 
 .btnhome:hover {
-  background-color: grey;
+  background-color: rgb(212, 211, 211);
 }
 
 .btnhome:active {
-  background-color: rgb(88, 87, 87);
+  background-color: rgb(171, 171, 171);
+}
+
+.btnmodul:hover {
+  background-color: rgb(212, 211, 211);
+}
+
+.btnmodul:active {
+  background-color: rgb(171, 171, 171);
 }
 
 .button__text,
