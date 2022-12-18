@@ -506,6 +506,8 @@ img {
   margin-left: 34px;
   border-radius: 10px;
   font-size: 20px;
+  color: #343434;
+  font-family: var(--ff-h1);
 }
 
 /* #result {
