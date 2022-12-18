@@ -86,7 +86,7 @@ p {
 h1,
 h2,
 h3 {
-  font-family: var(--ff-accent);
+  font-family: var(--ff-h1);
   line-height: 1;
   margin-bottom: 1em;
 }
@@ -581,9 +581,11 @@ img {
 
 /* Chart */
 
+
 .chartMenu {
   width: 100vw;
   height: 80px;
+  
 }
 
 .chartMenu p {
@@ -600,10 +602,19 @@ img {
   border: solid 3px rgb(37, 37, 37);
   background: white;
   margin-top: 5%;
+  margin-left: 10vw;
+}
+
+.btnchart {
+  margin-top: 10px;
+  margin-bottom: 15%;
+  margin-left: 10vw;
 }
 
 .btnchart1 {
+  margin-top: 10px;
   margin-bottom: 15%;
+  margin-left: 2vw;
 }
 
 .container_energi {
