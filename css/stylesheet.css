@@ -594,6 +594,7 @@ img {
 .chartBox {
   align-content: center;
   width: 700px;
+  height: 400px;
   padding: 20px;
   border-radius: 20px;
   border: solid 3px rgb(37, 37, 37);
@@ -614,7 +615,7 @@ img {
 @media only screen and (max-width: 1200px) {
   .chartBox {
     width: 80%;
-    height: 550px;
+    height: 400px;
     padding: 10px;
   }
 }
