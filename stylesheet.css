@@ -84,8 +84,7 @@ p {
 }
 
 h1,
-h2,
-h3 {
+h2 {
   font-family: var(--ff-h1);
   line-height: 1;
   margin-bottom: 1em;
@@ -216,7 +215,7 @@ img {
   width: 40px;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 10000px) {
   .nav__menu {
     position: fixed;
     bottom: 0;
@@ -406,12 +405,53 @@ img {
   font-size: 1.5em;
 }
 
+.button__icon2, .button__icon3, .button__icon4, .button__icon5, .button__icon6, .button__icon7 {
+  padding: 20px 0px 0px 20px;
+}
+
 .button__text3 {
   display: inline-flex;
   align-items: center;
-  padding-right: 50%;
+  padding-right: 60%;
   height: 100%;
 }
+
+.button__text4 {
+  display: inline-flex;
+  align-items: center;
+  padding-right: 46%;
+  height: 100%;
+}
+
+.button__text5 {
+  display: inline-flex;
+  align-items: center;
+  padding-right: 38%;
+  height: 100%;
+}
+
+.button__text6 {
+  display: inline-flex;
+  align-items: center;
+  padding-right: 53%;
+  height: 100%;
+}
+
+.button__text7 {
+  display: inline-flex;
+  align-items: center;
+  padding-right: 48%;
+  height: 100%;
+}
+
+.button__text8 {
+  display: inline-flex;
+  align-items: center;
+  padding-right: 55%;
+  height: 100%;
+}
+
+
 
 /* Plantebibliotek med JS */
 #myInput {
@@ -498,6 +538,8 @@ img {
   text-align: center;
   margin-top: -60px;
   font-size: 20px;
+  font-family: var(--ff-h2);
+  font-weight: 500;
 }
 
 .tilbageknap {
@@ -1242,6 +1284,7 @@ img {
   border: none;
   box-shadow: 0 3px 6px hsla(var(--hue), var(--sat), 15%, 0.15);
   margin-top: 30px;
+  margin-bottom: 100px;
 }
 
 /* slut til notifikation */
@@ -1296,6 +1339,7 @@ img {
   font-weight: bold;
   border: none;
   box-shadow: 0 3px 6px hsla(var(--hue), var(--sat), 15%, 0.15);
+  margin-bottom: 100px;
 }
 
 /* Slut til notifikation alt er godt */
