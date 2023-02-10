@@ -8,7 +8,7 @@
     <script src="js.files/plantebib.js" defer></script>
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://use.typekit.net/ulx5pgg.css">   
-    <title>Plantebibliotek</title>
+    <title>Tilføj Plante</title>
     
 </head>
 <body class="bg-main">
@@ -43,58 +43,61 @@
             <img class = "nav__img" src="images/globe_icon.svg" alt="black_globe_icon_language">              
         </nav>
     </header>
-        <section class="bg-head header-space">
-            <div class="container">
-                <div class="text-left">
-                    <h2 class="title">Plantebibliotek</h2>
-                    <h3 class="dialogp">Tilføj plante</h3>
-                </div>
+    <section class="bg-head header-space">
+        <div class="container">
+            <div class="text-left">
+                <h2 class="title">Plantebibliotek</h2>
+                <h3 class="dialogp">Tilføj plante</h3>
             </div>
-        </section>
-    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Søg plante.." title="Type in a name">
-
-    <table id="myTable">
-    <tr>
-        <td>
-        <img class="tdbilleder" src="images/basilikum.png" alt="basilikum">
-        <p class="tdtext">Basilikum</p>
-        </td>
-    </tr>
-    <tr class="whitespace">
-    </tr>
-    <tr>
-        <td>
-            <img class="tdbilleder" src="images/persille.png" alt="persille">
-            <p class="tdtext">Persille</p>
-        </td>
-    </tr>
-    <tr class="whitespace">
-    </tr>
-    <tr>
-        <td>
-            <img class="tdbilleder" src="images/oregano.png" alt="oregano">
-            <p class="tdtext">Oregano</p>
-        </td>
-    </tr>
-    <tr class="whitespace">
-    </tr>
-    <tr>
-        <td>
-            <img class="tdbilleder" src="images/timian.png" alt="timian">
-            <p class="tdtext">Timian</p>
-        </td>
-    </tr>
-    <tr class="whitespace">
-    </tr>
-    <tr>
-        <td>
-            <img class="tdbilleder" src="images/mynte.png" alt="mynte">
-            <p class="tdtext">Mynte</p>
-        </td>
-    </tr>
-    <tr class="whitespace">
-    </tr>
-    </table>
-    <a class="tilbageknap" href="menu.html" target="_self">Tilbage</a>
-
+        </div>
     </section>
+    <section>
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Søg plante.." title="Type in a name">
+
+        <table id="myTable">
+        <tr>
+            <td>
+            <img class="tdbilleder" src="images/basilikum.png" alt="basilikum">
+            <p class="tdtext">Basilikum</p>
+            </td>
+        </tr>
+        <tr class="whitespace">
+        </tr>
+        <tr>
+            <td>
+                <img class="tdbilleder" src="images/persille.png" alt="persille">
+                <p class="tdtext">Persille</p>
+            </td>
+        </tr>
+        <tr class="whitespace">
+        </tr>
+        <tr>
+            <td>
+                <img class="tdbilleder" src="images/oregano.png" alt="oregano">
+                <p class="tdtext">Oregano</p>
+            </td>
+        </tr>
+        <tr class="whitespace">
+        </tr>
+        <tr>
+            <td>
+                <img class="tdbilleder" src="images/timian.png" alt="timian">
+                <p class="tdtext">Timian</p>
+            </td>
+        </tr>
+        <tr class="whitespace">
+        </tr>
+        <tr>
+            <td>
+                <img class="tdbilleder" src="images/mynte.png" alt="mynte">
+                <p class="tdtext">Mynte</p>
+            </td>
+        </tr>
+        <tr class="whitespace">
+        </tr>
+        </table>
+        <div class="container">
+            <button class="tilbagebtn" onclick="window.location.href = 'niveau.html';">Tilbage</button>
+        </div>
+    </section>
+</body>

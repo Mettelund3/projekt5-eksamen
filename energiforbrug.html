@@ -56,50 +56,55 @@
     <!-- Dropdown menu -->
 
     <!--     dropdown 1 -->
-    <div class="dropdown">
-      <div class="dd1">
-        <select id="menu">
-          <option value="1">Moduler</option>
-          <option value="2">I alt</option>
-        </select>
-        <div id="result"></div>
-      </div>
+    <section>
+      <div class="dropdown">
+        <div class="dd1">
+          <select id="menu">
+            <option value="1">Moduler</option>
+            <option value="2">I alt</option>
+          </select>
+          <div id="result"></div>
+        </div>
 
       <!--     Dropdown 2 -->
-      <div class="dd2">
-        <select id="menu2">
-          <option value="1">Måned</option>
-          <option value="2">Uge</option>
-        </select>
+        <div class="dd2">
+          <select id="menu2">
+            <option value="1">Måned</option>
+            <option value="2">Uge</option>
+          </select>
+        </div>
       </div>
-    </div>
 
     <!--     month selecter-->
-
-    <div class="month-selector">
-      <button class="month-selector__button1">
-        <i class="bx bx-left-arrow-alt"></i>
-      </button>
-      <p class="month-selector__current-month">December 10 2022</p>
-      <button class="month-selector__button2">
-        <i class="bx bx-right-arrow-alt"></i>
-      </button>
-    </div>
+      <div class="month-selector">
+        <button class="month-selector__button1">
+          <i class="bx bx-left-arrow-alt"></i>
+        </button>
+        <p class="month-selector__current-month">December 10 2022</p>
+        <button class="month-selector__button2">
+          <i class="bx bx-right-arrow-alt"></i>
+        </button>
+      </div>
+    </section>
 
     <!-- Grafer -->
-    <div class="container_eg">
-      <div class="chartMenu">
-        <div class="chartBox">
-          <canvas id="myChart"></canvas>
-          <div class="container_energi">
-            <button class="tilbagebtn" onclick="window.location.href = 'menu.html';">
-              Tilbage
-            </button>
+    <section>
+      <div class="container_eg">
+        <div class="chartMenu">
+          <div class="chartBox">
+            <canvas id="myChart"></canvas>
           </div>
+          <button class="btnchart" onclick="chartType('bar')">Bar Chart</button>
+          <button class="btnchart1" onclick="chartType('pie')">Pie Chart</button>
         </div>
-        <button class="btnchart" onclick="chartType('bar')">Bar Chart</button>
-        <button class="btnchart1" onclick="chartType('pie')">Pie Chart</button>
       </div>
-    </div>
+    </section>
+    <section>
+      <div class="container_energi">
+        <button class="tilbagebtn" onclick="window.location.href = 'menu.html';">
+          Tilbage
+        </button>
+      </div>
+    </section>
   </body>
 </html>
